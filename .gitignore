@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+reports/models.joblib
+reports/shot_*.png

@@ -1,0 +1,128 @@
+{
+  "split": {
+    "unique_messages": 1909,
+    "train_rows": 2781,
+    "test_rows": 819,
+    "text_overlap": 0
+  },
+  "sentiment_baseline_textblob": {
+    "precision": 0.439,
+    "recall": 0.427,
+    "f1": 0.311,
+    "accuracy": 0.298
+  },
+  "sentiment_model": {
+    "precision": 0.971,
+    "recall": 0.949,
+    "f1": 0.96,
+    "accuracy": 0.977
+  },
+  "sentiment_confusion": {
+    "labels": [
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "matrix": [
+      [
+        604,
+        1,
+        3
+      ],
+      [
+        8,
+        90,
+        2
+      ],
+      [
+        4,
+        1,
+        106
+      ]
+    ]
+  },
+  "sarcasm_subset": {
+    "n": 110,
+    "textblob_correct_pct": 5.5,
+    "model_correct_pct": 95.5
+  },
+  "aspect_model": {
+    "precision": 0.963,
+    "recall": 0.968,
+    "f1": 0.965,
+    "accuracy": 0.967
+  },
+  "churn_model": {
+    "precision": 0.938,
+    "recall": 0.865,
+    "f1": 0.9,
+    "accuracy": 0.951,
+    "support_positive": 208,
+    "support_total": 819
+  },
+  "churn_baseline_any_negative": {
+    "precision": 0.334,
+    "recall": 0.976,
+    "f1": 0.498
+  },
+  "churn_baseline_keywords": {
+    "precision": 0.536,
+    "recall": 0.466,
+    "f1": 0.499
+  },
+  "urgency_model": {
+    "precision": 0.713,
+    "recall": 0.848,
+    "f1": 0.775
+  },
+  "churn_top_drivers": [
+    [
+      "come",
+      2.65
+    ],
+    [
+      "here come",
+      2.65
+    ],
+    [
+      "to",
+      2.57
+    ],
+    [
+      "taking my",
+      2.37
+    ],
+    [
+      "taking",
+      2.37
+    ],
+    [
+      "here",
+      2.34
+    ],
+    [
+      "after this",
+      2.18
+    ],
+    [
+      "as",
+      2.09
+    ],
+    [
+      "this",
+      1.98
+    ],
+    [
+      "ever rain",
+      1.85
+    ],
+    [
+      "you",
+      1.84
+    ],
+    [
+      "cancelling my",
+      1.83
+    ]
+  ]
+}

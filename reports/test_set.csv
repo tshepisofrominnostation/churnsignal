@@ -1,0 +1,820 @@
+id,provider,channel,aspect,text,sentiment,churn_intent,urgent,sarcastic,key
+3,Afrihost Fibre,Facebook,Contract & porting,"stuck in a contract i was misled into, terrible, just terrible. closing my account today. my business is losing money please fix.",negative,1,1,0,stuck in a contract i was misled into terrible just terrible closing my account today my business is losing money please fix
+5,Cell C,Facebook,Data & pricing,what bundles are available (2nd time asking),neutral,0,0,0,what bundles are available 2nd time asking
+8,Cell C,WhatsApp,Fibre installation,installation promised in 5 days now week five so frustrating #Cell C,negative,0,0,0,installation promised in 5 days now week five so frustrating #cell c
+10,Telkom,Hellopeter,Fibre installation,debit order went off for a cancelled line. how do I cancel the add-on service only Please fix.,positive,0,0,1,debit order went off for a cancelled line how do i cancel the addon service only please fix
+13,Vodacom,Call-centre note,Network quality,"calls keep cutting out. my friend ported to Rain and loves it, I am staying put Ref: 49802",negative,0,0,0,calls keep cutting out my friend ported to rain and loves it i am staying put
+14,Vumatel Fibre,X/Twitter,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+18,Cell C,Call-centre note,Contract & porting,"they refuse to cancel my contract, this is unacceptable",negative,0,0,0,they refuse to cancel my contract this is unacceptable
+20,Rain,Hellopeter,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+21,Cell C,Facebook,Network quality,"signal drops every evening, absolutely disgusting",negative,0,0,0,signal drops every evening absolutely disgusting
+24,Telkom,Call-centre note,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu ref: 24758",negative,1,0,0,ayikho inetwork nakanjani nginenkinga enkulu
+25,Afrihost Fibre,Call-centre note,Customer service,ticket closed with no resolution so frustrating escalating this (2nd time asking),negative,0,1,0,ticket closed with no resolution so frustrating escalating this 2nd time asking
+29,Telkom,X/Twitter,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+30,Vodacom,Facebook,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+31,Cell C,Call-centre note,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+41,Afrihost Fibre,X/Twitter,Customer service,nobody replies to my queries Please fix,negative,0,0,0,nobody replies to my queries please fix
+47,Rain,X/Twitter,Fibre installation,"Brilliant, the technician no-showed. Again. Fantastic. done with Rain, moving to MTN. Ref: 61380",negative,1,0,1,brilliant the technician noshowed again fantastic done with rain moving to mtn
+50,Vodacom,Hellopeter,Billing,"they refuse to cancel my contract. my whole family is moving across, rain gave us a quote",negative,1,0,1,they refuse to cancel my contract my whole family is moving across rain gave us a quote
+55,Vumatel Fibre,Call-centre note,Fibre installation,is fibre available in my street Please fix.,neutral,0,0,0,is fibre available in my street please fix
+58,Rain,Facebook,Network quality,is the network down in Soweto? Please fix.,neutral,0,0,0,is the network down in soweto please fix
+61,Vodacom,Facebook,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+63,Vodacom,Facebook,Data & pricing,"my data is finished again, ke tšhaba #Vodacom",negative,0,0,0,my data is finished again ke tšhaba #vodacom
+65,Rain,Facebook,Network quality,data speeds are unusable completely fed up my business is losing money Please fix,negative,0,1,0,data speeds are unusable completely fed up my business is losing money please fix
+70,Afrihost Fibre,WhatsApp,Data & pricing,price hike with no notice. cell c here i come,negative,1,0,0,price hike with no notice cell c here i come
+80,Vodacom,Facebook,Billing,debit order went off for a cancelled line #vodacom,negative,0,0,0,debit order went off for a cancelled line #vodacom
+92,Telkom,X/Twitter,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+109,Rain,Hellopeter,Network quality,"data speeds are unusable, this is unacceptable. I am switching to MTN this week (2nd time asking)",negative,1,0,0,data speeds are unusable this is unacceptable i am switching to mtn this week 2nd time asking
+111,Vumatel Fibre,Facebook,Fibre installation,fibre line still not live after paying the setup fee my business is losing money,negative,0,1,0,fibre line still not live after paying the setup fee my business is losing money
+113,Vodacom,Hellopeter,Fibre installation,"fibre line still not live after paying the setup fee, terrible, just terrible. escalating this",negative,0,1,0,fibre line still not live after paying the setup fee terrible just terrible escalating this
+114,Rain,Facebook,Billing,"I was charged twice this month, absolutely disgusting Ref: 31107",negative,0,0,0,i was charged twice this month absolutely disgusting
+115,Vumatel Fibre,X/Twitter,Data & pricing,what bundles are available (2nd time asking),neutral,0,0,0,what bundles are available 2nd time asking
+117,Cell C,Facebook,Contract & porting,"they refuse to cancel my contract. not switching, but i want a refund",negative,0,0,0,they refuse to cancel my contract not switching but i want a refund
+122,Vodacom,WhatsApp,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu",negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu
+127,Vodacom,Hellopeter,Contract & porting,porting out is being blocked. need this fixed today,negative,1,1,0,porting out is being blocked need this fixed today
+128,Cell C,Hellopeter,Contract & porting,porting out is being blocked ridiculous (2nd time asking),negative,0,0,0,porting out is being blocked ridiculous 2nd time asking
+130,Vumatel Fibre,Call-centre note,Fibre installation,is fibre available in my street #Vumatel Fibre,neutral,0,0,0,is fibre available in my street #vumatel fibre
+131,Vodacom,Facebook,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+133,MTN,X/Twitter,Fibre installation,fibre line still not live after paying the setup fee taking my business elsewhere,negative,1,0,0,fibre line still not live after paying the setup fee taking my business elsewhere
+135,Vodacom,Facebook,Customer service,what are the call centre hours (2nd time asking),neutral,0,0,0,what are the call centre hours 2nd time asking
+137,Afrihost Fibre,WhatsApp,Data & pricing,expensive compared to the competition. cancelling my contract after this. please respond,negative,1,1,0,expensive compared to the competition cancelling my contract after this please respond
+138,Afrihost Fibre,Facebook,Customer service,"stuck in a contract I was misled into. not switching, but I want a refund",negative,0,0,1,stuck in a contract i was misled into not switching but i want a refund
+139,Afrihost Fibre,WhatsApp,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu (2nd time asking)",negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu 2nd time asking
+149,Telkom,Hellopeter,Contract & porting,"stuck in a contract I was misled into, so frustrating Please fix.",negative,0,0,0,stuck in a contract i was misled into so frustrating please fix
+152,Rain,WhatsApp,Fibre installation,the technician never arrived for the third time. my contract ends next month and I am not renewing Please fix.,negative,1,1,0,the technician never arrived for the third time my contract ends next month and i am not renewing please fix
+160,Cell C,Facebook,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+167,MTN,X/Twitter,Data & pricing,"expensive compared to the competition. not switching, but I want a refund #MTN",negative,0,0,0,expensive compared to the competition not switching but i want a refund #mtn
+170,Rain,X/Twitter,Billing,"Oh wonderful, billed twice again. Thanks so much Rain. Please fix.",negative,0,0,1,oh wonderful billed twice again thanks so much rain please fix
+172,MTN,Facebook,Contract & porting,"they refuse to cancel my contract, this is unacceptable",negative,0,0,0,they refuse to cancel my contract this is unacceptable
+178,Rain,Call-centre note,Network quality,"great job rain, another perfect outage. really impressive stuff. #rain",negative,0,0,1,great job rain another perfect outage really impressive stuff #rain
+179,Cell C,X/Twitter,Fibre installation,router delivered but no connection. closing my account today,negative,1,0,0,router delivered but no connection closing my account today
+183,Cell C,Facebook,Customer service,love waiting 90 minutes on hold. best service ever cell c. taking my number to mtn. #cell c,negative,1,0,1,love waiting 90 minutes on hold best service ever cell c taking my number to mtn #cell c
+189,Cell C,Facebook,Data & pricing,"my data is finished again, ke tšhaba Ref: 87901",negative,1,0,0,my data is finished again ke tšhaba
+201,Vumatel Fibre,WhatsApp,Billing,"oh wonderful, billed twice again. thanks so much vumatel fibre. #vumatel fibre",negative,0,0,1,oh wonderful billed twice again thanks so much vumatel fibre #vumatel fibre
+204,Vodacom,Hellopeter,Contract & porting,they refuse to cancel my contract. taking my number to Afrihost Fibre,negative,1,0,0,they refuse to cancel my contract taking my number to afrihost fibre
+209,Rain,Hellopeter,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu",negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu
+210,Vodacom,WhatsApp,Fibre installation,"fibre line still not live after paying the setup fee, terrible, just terrible",negative,0,0,0,fibre line still not live after paying the setup fee terrible just terrible
+213,Vumatel Fibre,Call-centre note,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+223,Rain,X/Twitter,Customer service,Love waiting 90 minutes on hold. Best service ever Rain. ready to leave Rain for good.,negative,1,0,1,love waiting 90 minutes on hold best service ever rain ready to leave rain for good
+224,Telkom,Call-centre note,Fibre installation,"ag man, still waiting for the technician (2nd time asking)",negative,0,0,0,ag man still waiting for the technician 2nd time asking
+229,Telkom,Facebook,Customer service,support on WhatsApp was quick and helpful Please fix.,positive,0,0,0,support on whatsapp was quick and helpful please fix
+230,Vodacom,Facebook,Contract & porting,what is the cancellation notice period #Vodacom,neutral,0,0,0,what is the cancellation notice period #vodacom
+233,MTN,Hellopeter,Network quality,"the technician never arrived for the third time. I would never cancel, I just want this fixed",neutral,0,0,1,the technician never arrived for the third time i would never cancel i just want this fixed
+234,Vumatel Fibre,Hellopeter,Billing,ticket closed with no resolution not switching but i want a refund,negative,1,0,1,ticket closed with no resolution not switching but i want a refund
+239,Vumatel Fibre,Call-centre note,Data & pricing,"my data depleted in a day for no reason, so frustrating. cancelling my contract after this",negative,1,0,0,my data depleted in a day for no reason so frustrating cancelling my contract after this
+247,MTN,Call-centre note,Network quality,"signal drops every evening, absolutely disgusting",negative,0,0,0,signal drops every evening absolutely disgusting
+249,Telkom,Facebook,Customer service,ticket closed with no resolution completely fed up taking my number to vodacom #telkom,negative,1,0,0,ticket closed with no resolution completely fed up taking my number to vodacom #telkom
+255,Afrihost Fibre,Call-centre note,Billing,"my bill jumped by R400 with no explanation, this is unacceptable",negative,0,0,0,my bill jumped by r400 with no explanation this is unacceptable
+256,Telkom,Hellopeter,Network quality,ayikho i-network nakanjani nginenkinga enkulu (2nd time asking),negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu 2nd time asking
+259,Cell C,X/Twitter,Customer service,the agent hung up on me. urgent,negative,0,1,0,the agent hung up on me urgent
+264,MTN,Hellopeter,Contract & porting,cancellation fee is not what the salesperson said (2nd time asking),negative,0,0,0,cancellation fee is not what the salesperson said 2nd time asking
+270,Vodacom,X/Twitter,Customer service,what are the call centre hours (2nd time asking),neutral,0,0,0,what are the call centre hours 2nd time asking
+271,Cell C,X/Twitter,Data & pricing,"my data is finished again, ke tšhaba Ref: 51118",negative,0,0,0,my data is finished again ke tšhaba
+275,Telkom,Call-centre note,Fibre installation,fibre line still not live after paying the setup fee please fix.,negative,0,0,0,fibre line still not live after paying the setup fee please fix
+284,Vodacom,Call-centre note,Fibre installation,"router delivered but no connection, this is unacceptable. ready to leave vodacom for good ref: 11118",negative,1,0,0,router delivered but no connection this is unacceptable ready to leave vodacom for good
+285,Vodacom,Hellopeter,Data & pricing,my data is finished again ke tšhaba #vodacom,negative,0,0,0,my data is finished again ke tšhaba #vodacom
+297,Telkom,X/Twitter,Data & pricing,cheaper than my previous provider #Telkom,positive,0,0,0,cheaper than my previous provider #telkom
+307,MTN,Facebook,Billing,debit order went off for a cancelled line. I will be porting out as soon as I can. need this fixed today,negative,1,1,0,debit order went off for a cancelled line i will be porting out as soon as i can need this fixed today
+311,Afrihost Fibre,Facebook,Billing,"debit order went off for a cancelled line, ridiculous Please fix.",negative,1,0,0,debit order went off for a cancelled line ridiculous please fix
+314,MTN,Facebook,Network quality,is the network down in Soweto? Please fix.,neutral,0,0,0,is the network down in soweto please fix
+326,MTN,Call-centre note,Fibre installation,the technician never arrived for the third time. need this fixed today #mtn,negative,0,1,0,the technician never arrived for the third time need this fixed today #mtn
+343,MTN,X/Twitter,Customer service,"ticket closed with no resolution, this is unacceptable. need this fixed today",negative,0,1,0,ticket closed with no resolution this is unacceptable need this fixed today
+346,Cell C,Call-centre note,Customer service,"I have been on hold for 90 minutes, absolutely disgusting",neutral,0,0,0,i have been on hold for 90 minutes absolutely disgusting
+347,Afrihost Fibre,Call-centre note,Customer service,no response from support in two weeks. I am switching to MTN this week #Afrihost Fibre,negative,1,0,0,no response from support in two weeks i am switching to mtn this week #afrihost fibre
+351,Telkom,X/Twitter,Network quality,"sies, the signal here is useless (2nd time asking)",negative,0,0,0,sies the signal here is useless 2nd time asking
+356,Vumatel Fibre,WhatsApp,Fibre installation,"the technician never arrived for the third time, completely fed up please fix.",negative,1,0,0,the technician never arrived for the third time completely fed up please fix
+361,Telkom,Facebook,Fibre installation,"ag man, still waiting for the technician (2nd time asking)",negative,0,0,0,ag man still waiting for the technician 2nd time asking
+362,Vodacom,WhatsApp,Billing,"Oh wonderful, billed twice again. Thanks so much Vodacom.",negative,0,0,1,oh wonderful billed twice again thanks so much vodacom
+365,Vumatel Fibre,Facebook,Contract & porting,"they refuse to cancel my contract. I have already requested my PAC, so you have until Friday Please fix.",negative,1,0,0,they refuse to cancel my contract i have already requested my pac so you have until friday please fix
+368,Rain,Hellopeter,Customer service,"i have been on hold for 90 minutes. someone told me to port out. i refuse, fix this instead please fix.",negative,0,0,0,i have been on hold for 90 minutes someone told me to port out i refuse fix this instead please fix
+372,Telkom,Facebook,Customer service,love waiting 90 minutes on hold. best service ever telkom. #telkom,negative,0,0,1,love waiting 90 minutes on hold best service ever telkom #telkom
+374,MTN,Hellopeter,Contract & porting,what is the cancellation notice period #MTN,neutral,0,0,0,what is the cancellation notice period #mtn
+375,Vumatel Fibre,Call-centre note,Billing,"airtime was deducted for a service i never used, this is unacceptable",negative,0,0,0,airtime was deducted for a service i never used this is unacceptable
+385,Telkom,X/Twitter,Billing,my bill jumped by r400 with no explanation. need this fixed today,negative,0,1,0,my bill jumped by r400 with no explanation need this fixed today
+386,Vodacom,WhatsApp,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu Ref: 92512",negative,0,1,0,ayikho inetwork nakanjani nginenkinga enkulu
+388,Vodacom,Facebook,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+393,Vumatel Fibre,Hellopeter,Contract & porting,they refuse to cancel my contract Please fix.,negative,0,0,0,they refuse to cancel my contract please fix
+394,Telkom,X/Twitter,Data & pricing,"prepaid data expires too quickly, i am furious",negative,0,0,0,prepaid data expires too quickly i am furious
+395,Afrihost Fibre,Facebook,Network quality,signal drops every evening. please respond (2nd time asking),negative,0,1,0,signal drops every evening please respond 2nd time asking
+404,Vumatel Fibre,Hellopeter,Data & pricing,"price hike with no notice, I am furious. this is my last month with you (2nd time asking)",negative,1,0,0,price hike with no notice i am furious this is my last month with you 2nd time asking
+412,Vumatel Fibre,X/Twitter,Billing,out of bundle charges I never agreed to need this fixed today #Vumatel Fibre,negative,0,1,0,out of bundle charges i never agreed to need this fixed today #vumatel fibre
+414,MTN,Call-centre note,Network quality,is the network down in Soweto? Please fix.,neutral,0,0,0,is the network down in soweto please fix
+415,Rain,Call-centre note,Fibre installation,"router delivered but no connection, i am furious. cancelling my contract after this #rain",negative,1,0,0,router delivered but no connection i am furious cancelling my contract after this #rain
+427,Cell C,Hellopeter,Billing,"out of bundle charges I never agreed to, terrible, just terrible",negative,0,0,0,out of bundle charges i never agreed to terrible just terrible
+428,Telkom,X/Twitter,Network quality,"LTE shows full bars but nothing loads, completely fed up",negative,0,0,0,lte shows full bars but nothing loads completely fed up
+430,Telkom,WhatsApp,Customer service,nobody replies to my queries Please fix.,negative,0,0,0,nobody replies to my queries please fix
+433,Vodacom,Facebook,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+435,Vumatel Fibre,X/Twitter,Customer service,"i have been on hold for 90 minutes. my friend ported to cell c and loves it, i am staying put",negative,0,0,0,i have been on hold for 90 minutes my friend ported to cell c and loves it i am staying put
+437,Vumatel Fibre,Hellopeter,Network quality,"Great job Vumatel Fibre, another perfect outage. Really impressive stuff. (2nd time asking)",negative,0,0,1,great job vumatel fibre another perfect outage really impressive stuff 2nd time asking
+448,MTN,X/Twitter,Network quality,"data speeds are unusable, this is unacceptable Ref: 88054",negative,0,0,0,data speeds are unusable this is unacceptable
+449,Vodacom,WhatsApp,Billing,"out of bundle charges I never agreed to, I am furious. done with Vodacom, moving to Rain Ref: 28204",negative,1,0,0,out of bundle charges i never agreed to i am furious done with vodacom moving to rain
+452,Cell C,Call-centre note,Contract & porting,cancellation was painless #cell c,positive,0,0,0,cancellation was painless #cell c
+454,Vumatel Fibre,X/Twitter,Network quality,ayikho i-network nakanjani nginenkinga enkulu Ref: 18059,negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu
+457,Rain,WhatsApp,Billing,"debit order went off for a cancelled line, absolutely disgusting. taking my number to Telkom. need this fixed today",negative,1,1,0,debit order went off for a cancelled line absolutely disgusting taking my number to telkom need this fixed today
+459,Cell C,Facebook,Data & pricing,how do I check my balance #Cell C,neutral,0,0,0,how do i check my balance #cell c
+467,MTN,X/Twitter,Fibre installation,"installation promised in 5 days, now week five, I am furious #MTN",negative,0,0,0,installation promised in 5 days now week five i am furious #mtn
+468,Cell C,Hellopeter,Data & pricing,"expensive compared to the competition. someone told me to port out. I refuse, fix this instead",negative,0,1,0,expensive compared to the competition someone told me to port out i refuse fix this instead
+470,Cell C,WhatsApp,Customer service,no response from support in two weeks #Cell C,negative,1,0,0,no response from support in two weeks #cell c
+480,Cell C,Hellopeter,Contract & porting,porting out is being blocked Ref: 19167,negative,0,0,0,porting out is being blocked
+481,Vumatel Fibre,Hellopeter,Data & pricing,"my data is finished again, ke tšhaba Ref: 24043",negative,0,0,0,my data is finished again ke tšhaba
+482,Cell C,X/Twitter,Network quality,signal drops every evening. that was the last straw,negative,1,0,0,signal drops every evening that was the last straw
+483,Rain,Hellopeter,Fibre installation,"Brilliant, the technician no-showed. Again. Fantastic. closing my account today. #Rain",negative,0,0,1,brilliant the technician noshowed again fantastic closing my account today #rain
+485,Cell C,WhatsApp,Fibre installation,"installation promised in 5 days, now week five, completely fed up. @Cell C please help (2nd time asking)",negative,0,1,0,installation promised in 5 days now week five completely fed up @cell c please help 2nd time asking
+486,Afrihost Fibre,Call-centre note,Billing,"Oh wonderful, billed twice again. Thanks so much Afrihost Fibre. #Afrihost Fibre",negative,0,0,1,oh wonderful billed twice again thanks so much afrihost fibre #afrihost fibre
+488,Vodacom,WhatsApp,Customer service,the agent was patient and fixed it first time Ref: 24737,positive,0,0,0,the agent was patient and fixed it first time
+489,Cell C,Facebook,Network quality,calls keep cutting out. taking my number to MTN. need this fixed today (2nd time asking),negative,1,1,0,calls keep cutting out taking my number to mtn need this fixed today 2nd time asking
+496,Cell C,WhatsApp,Network quality,signal drops every evening. my contract ends next month and I am not renewing Ref: 73531,negative,1,0,0,signal drops every evening my contract ends next month and i am not renewing
+497,Cell C,WhatsApp,Network quality,is the network down in soweto? please fix.,neutral,0,0,0,is the network down in soweto please fix
+498,Vumatel Fibre,Hellopeter,Data & pricing,the new bundle is great value Ref: 81673,positive,0,0,0,the new bundle is great value
+505,Afrihost Fibre,WhatsApp,Customer service,Love waiting 90 minutes on hold. Best service ever Afrihost Fibre. #Afrihost Fibre,negative,0,0,1,love waiting 90 minutes on hold best service ever afrihost fibre #afrihost fibre
+509,Vumatel Fibre,Facebook,Billing,airtime was deducted for a service i never used. my contract ends next month and i am not renewing (2nd time asking),negative,1,0,0,airtime was deducted for a service i never used my contract ends next month and i am not renewing 2nd time asking
+511,Vumatel Fibre,X/Twitter,Network quality,"LTE shows full bars but nothing loads, absolutely disgusting. Afrihost Fibre here I come (2nd time asking)",neutral,0,0,0,lte shows full bars but nothing loads absolutely disgusting afrihost fibre here i come 2nd time asking
+512,Telkom,Call-centre note,Customer service,nobody replies to my queries. cancelling my contract after this #Telkom,negative,1,0,0,nobody replies to my queries cancelling my contract after this #telkom
+513,Vodacom,Facebook,Network quality,signal drops every evening. @Vodacom please help (2nd time asking),negative,0,1,0,signal drops every evening @vodacom please help 2nd time asking
+514,Rain,WhatsApp,Fibre installation,router delivered but no connection. @rain please help ref: 52099,negative,0,1,0,router delivered but no connection @rain please help
+516,Telkom,Call-centre note,Network quality,"sies, the signal here is useless #Telkom",negative,0,0,0,sies the signal here is useless #telkom
+527,MTN,Hellopeter,Billing,they refuse to cancel my contract. do not cancel my contract by mistake like last time (2nd time asking),negative,0,0,1,they refuse to cancel my contract do not cancel my contract by mistake like last time 2nd time asking
+531,Afrihost Fibre,WhatsApp,Customer service,i have been on hold for 90 minutes. ready to leave afrihost fibre for good. my business is losing money please fix.,negative,1,1,0,i have been on hold for 90 minutes ready to leave afrihost fibre for good my business is losing money please fix
+534,MTN,X/Twitter,Customer service,what are the call centre hours (2nd time asking),neutral,0,0,0,what are the call centre hours 2nd time asking
+535,Rain,Call-centre note,Contract & porting,"stuck in a contract I was misled into. they asked if I want to cancel the old line, I said no (2nd time asking)",negative,0,0,0,stuck in a contract i was misled into they asked if i want to cancel the old line i said no 2nd time asking
+541,Vodacom,Hellopeter,Fibre installation,the technician explained everything #Vodacom,positive,0,0,0,the technician explained everything #vodacom
+542,Rain,Facebook,Contract & porting,"stuck in a contract I was misled into, absolutely disgusting Please fix.",negative,0,0,0,stuck in a contract i was misled into absolutely disgusting please fix
+551,MTN,Facebook,Billing,"out of bundle charges I never agreed to, terrible, just terrible Ref: 35542",negative,0,0,0,out of bundle charges i never agreed to terrible just terrible
+560,Cell C,Call-centre note,Billing,sent to three different departments and nobody owns this. my contract ends next month and I am not renewing #Cell C,negative,1,0,1,sent to three different departments and nobody owns this my contract ends next month and i am not renewing #cell c
+566,Vodacom,X/Twitter,Fibre installation,"the technician never arrived for the third time, terrible, just terrible. mtn here i come",negative,1,0,0,the technician never arrived for the third time terrible just terrible mtn here i come
+568,Telkom,Call-centre note,Fibre installation,is fibre available in my street Please fix,neutral,0,0,0,is fibre available in my street please fix
+572,Cell C,Call-centre note,Data & pricing,how do i check my balance #cell c,neutral,0,0,0,how do i check my balance #cell c
+575,Cell C,Call-centre note,Data & pricing,my data is finished again ke tšhaba,negative,0,0,0,my data is finished again ke tšhaba
+576,Vumatel Fibre,Call-centre note,Network quality,LTE shows full bars but nothing loads (2nd time asking),negative,0,0,0,lte shows full bars but nothing loads 2nd time asking
+580,Telkom,Facebook,Data & pricing,"my data is finished again, ke tšhaba #telkom",negative,0,0,1,my data is finished again ke tšhaba #telkom
+589,Rain,Hellopeter,Contract & porting,"porting out is being blocked, this is unacceptable. my business is losing money",negative,0,1,0,porting out is being blocked this is unacceptable my business is losing money
+593,Cell C,X/Twitter,Contract & porting,"they refuse to cancel my contract. they asked if I want to cancel the old line, I said no",negative,0,0,0,they refuse to cancel my contract they asked if i want to cancel the old line i said no
+595,Cell C,Call-centre note,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+602,Vumatel Fibre,Hellopeter,Network quality,signal drops every evening. taking my number to Cell C #Vumatel Fibre,negative,1,0,0,signal drops every evening taking my number to cell c #vumatel fibre
+603,Vumatel Fibre,WhatsApp,Billing,what date does my debit order run #Vumatel Fibre,neutral,0,0,0,what date does my debit order run #vumatel fibre
+610,Telkom,Facebook,Data & pricing,what bundles are available Ref: 40189,neutral,0,0,0,what bundles are available
+612,MTN,X/Twitter,Fibre installation,"fibre line still not live after paying the setup fee, terrible, just terrible. please respond",negative,0,1,0,fibre line still not live after paying the setup fee terrible just terrible please respond
+614,Rain,WhatsApp,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+616,Rain,Call-centre note,Billing,"eish, billed again for nothing (2nd time asking)",negative,0,0,1,eish billed again for nothing 2nd time asking
+622,Cell C,X/Twitter,Billing,my bill jumped by r400 with no explanation not switching but i want a refund please fix,negative,0,0,0,my bill jumped by r400 with no explanation not switching but i want a refund please fix
+625,Vodacom,Hellopeter,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+627,Vumatel Fibre,Facebook,Network quality,"no coverage at my house since load shedding started. my friend ported to Afrihost Fibre and loves it, I am staying put Please fix.",negative,0,0,0,no coverage at my house since load shedding started my friend ported to afrihost fibre and loves it i am staying put please fix
+629,Rain,Facebook,Data & pricing,expensive compared to the competition #rain,negative,0,0,0,expensive compared to the competition #rain
+631,Telkom,Facebook,Data & pricing,my data depleted in a day for no reason. taking my number to Vumatel Fibre,negative,1,0,0,my data depleted in a day for no reason taking my number to vumatel fibre
+632,Telkom,Call-centre note,Network quality,they refuse to cancel my contract. my contract ends next month and I am not renewing,negative,1,0,1,they refuse to cancel my contract my contract ends next month and i am not renewing
+642,Telkom,Call-centre note,Data & pricing,"price hike with no notice, i am furious. done with telkom, moving to cell c",negative,1,0,0,price hike with no notice i am furious done with telkom moving to cell c
+650,Vumatel Fibre,Call-centre note,Billing,refund for the double charge arrived quickly #Vumatel Fibre,positive,0,0,0,refund for the double charge arrived quickly #vumatel fibre
+658,Afrihost Fibre,WhatsApp,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu",negative,0,0,1,ayikho inetwork nakanjani nginenkinga enkulu
+662,Cell C,Facebook,Data & pricing,"price hike with no notice. someone told me to port out. I refuse, fix this instead Ref: 97736",negative,0,0,0,price hike with no notice someone told me to port out i refuse fix this instead
+663,Cell C,Facebook,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+664,MTN,X/Twitter,Fibre installation,"the technician never arrived for the third time, ridiculous. taking my number to Vodacom #MTN",negative,1,0,0,the technician never arrived for the third time ridiculous taking my number to vodacom #mtn
+669,Rain,Facebook,Billing,"eish, billed again for nothing (2nd time asking)",negative,0,0,0,eish billed again for nothing 2nd time asking
+671,Afrihost Fibre,Hellopeter,Fibre installation,"installation promised in 5 days, now week five, completely fed up ref: 27986",negative,0,0,0,installation promised in 5 days now week five completely fed up
+676,MTN,WhatsApp,Billing,the billing breakdown is clear and accurate ref: 75069,positive,0,0,0,the billing breakdown is clear and accurate
+678,Vumatel Fibre,Call-centre note,Data & pricing,"price hike with no notice, so frustrating",negative,0,0,0,price hike with no notice so frustrating
+691,MTN,X/Twitter,Billing,"eish, billed again for nothing (2nd time asking)",negative,0,0,1,eish billed again for nothing 2nd time asking
+692,Afrihost Fibre,Facebook,Billing,"oh wonderful, billed twice again. thanks so much afrihost fibre. mtn here i come.",negative,1,0,1,oh wonderful billed twice again thanks so much afrihost fibre mtn here i come
+694,MTN,WhatsApp,Network quality,the tower near us has been down for days,negative,0,0,0,the tower near us has been down for days
+697,Afrihost Fibre,WhatsApp,Data & pricing,prepaid data expires too quickly I am furious Ref: 14137,negative,0,0,0,prepaid data expires too quickly i am furious
+701,Vumatel Fibre,Hellopeter,Fibre installation,ag man still waiting for the technician (2nd time asking),negative,0,1,0,ag man still waiting for the technician 2nd time asking
+702,Vumatel Fibre,Facebook,Data & pricing,what bundles are available #Vumatel Fibre,neutral,0,0,0,what bundles are available #vumatel fibre
+715,Vodacom,Hellopeter,Billing,"airtime was deducted for a service i never used. i would never cancel, i just want this fixed #vodacom",negative,0,0,0,airtime was deducted for a service i never used i would never cancel i just want this fixed #vodacom
+716,Vumatel Fibre,Hellopeter,Network quality,the tower near us has been down for days need this fixed today Please fix,negative,0,1,0,the tower near us has been down for days need this fixed today please fix
+719,Cell C,Facebook,Billing,"I was charged twice this month, this is unacceptable. I will be porting out as soon as I can",negative,1,0,0,i was charged twice this month this is unacceptable i will be porting out as soon as i can
+723,Telkom,WhatsApp,Network quality,calls keep cutting out not switching but I want a refund (2nd time asking),negative,0,0,0,calls keep cutting out not switching but i want a refund 2nd time asking
+724,MTN,X/Twitter,Contract & porting,porting out is being blocked,positive,0,0,0,porting out is being blocked
+725,Vodacom,Hellopeter,Billing,"oh wonderful, billed twice again. thanks so much vodacom. mtn here i come. (2nd time asking)",negative,1,0,1,oh wonderful billed twice again thanks so much vodacom mtn here i come 2nd time asking
+733,Rain,Facebook,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+734,Vodacom,Call-centre note,Contract & porting,"they refuse to cancel my contract. done with vodacom, moving to rain. @vodacom please help ref: 71669",negative,1,1,0,they refuse to cancel my contract done with vodacom moving to rain @vodacom please help
+739,Cell C,Call-centre note,Customer service,"the agent hung up on me, ridiculous please fix.",negative,0,0,0,the agent hung up on me ridiculous please fix
+750,Afrihost Fibre,X/Twitter,Contract & porting,"stuck in a contract i was misled into, terrible, just terrible. escalating this (2nd time asking)",negative,0,1,0,stuck in a contract i was misled into terrible just terrible escalating this 2nd time asking
+755,Vodacom,Call-centre note,Contract & porting,stuck in a contract I was misled into. @Vodacom please help,negative,0,1,0,stuck in a contract i was misled into @vodacom please help
+756,Cell C,X/Twitter,Billing,"Oh wonderful, billed twice again. Thanks so much Cell C.",negative,0,0,1,oh wonderful billed twice again thanks so much cell c
+774,Rain,WhatsApp,Network quality,data speeds are unusable. how do i cancel the add-on service only ref: 74705,negative,0,0,0,data speeds are unusable how do i cancel the addon service only
+778,Telkom,Call-centre note,Data & pricing,what bundles are available Ref: 87652,neutral,0,0,0,what bundles are available
+780,Vumatel Fibre,Hellopeter,Data & pricing,"price hike with no notice. someone told me to port out. I refuse, fix this instead",negative,0,0,0,price hike with no notice someone told me to port out i refuse fix this instead
+781,Vodacom,Hellopeter,Billing,"my bill jumped by R400 with no explanation, ridiculous",negative,0,0,0,my bill jumped by r400 with no explanation ridiculous
+783,Cell C,WhatsApp,Billing,debit order went off for a cancelled line. do not cancel my contract by mistake like last time,negative,0,0,0,debit order went off for a cancelled line do not cancel my contract by mistake like last time
+784,Vumatel Fibre,X/Twitter,Fibre installation,is fibre available in my street #Vumatel Fibre,neutral,0,0,0,is fibre available in my street #vumatel fibre
+793,Vodacom,X/Twitter,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+795,Cell C,WhatsApp,Billing,airtime was deducted for a service I never used this is unacceptable,negative,0,0,0,airtime was deducted for a service i never used this is unacceptable
+796,Rain,Call-centre note,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+804,Vodacom,Hellopeter,Fibre installation,fibre line still not live after paying the setup fee. Rain has a better deal and honestly I am tempted. one more strike and I am gone #Vodacom,negative,1,1,0,fibre line still not live after paying the setup fee rain has a better deal and honestly i am tempted one more strike and i am gone #vodacom
+806,Vodacom,X/Twitter,Data & pricing,what bundles are available (2nd time asking),neutral,0,0,0,what bundles are available 2nd time asking
+807,Vodacom,Facebook,Network quality,data speeds are unusable. escalating this ref: 65285,negative,0,1,0,data speeds are unusable escalating this
+812,Vumatel Fibre,Hellopeter,Data & pricing,price hike with no notice. my contract ends next month and I am not renewing,negative,1,0,0,price hike with no notice my contract ends next month and i am not renewing
+818,Rain,WhatsApp,Fibre installation,"the technician never arrived for the third time. someone told me to port out. I refuse, fix this instead Please fix.",negative,0,0,0,the technician never arrived for the third time someone told me to port out i refuse fix this instead please fix
+822,Afrihost Fibre,WhatsApp,Network quality,"sies, the signal here is useless (2nd time asking)",negative,1,0,0,sies the signal here is useless 2nd time asking
+827,Afrihost Fibre,X/Twitter,Data & pricing,the new bundle is great value (2nd time asking),positive,0,0,0,the new bundle is great value 2nd time asking
+830,Rain,WhatsApp,Customer service,i have been on hold for 90 minutes i am furious,negative,0,0,0,i have been on hold for 90 minutes i am furious
+837,Cell C,WhatsApp,Customer service,no response from support in two weeks. please respond please fix.,negative,0,1,0,no response from support in two weeks please respond please fix
+842,Telkom,WhatsApp,Network quality,"sies, the signal here is useless (2nd time asking)",negative,0,0,0,sies the signal here is useless 2nd time asking
+847,Rain,X/Twitter,Network quality,"great job rain, another perfect outage. really impressive stuff.",negative,0,0,1,great job rain another perfect outage really impressive stuff
+849,Afrihost Fibre,Call-centre note,Network quality,signal drops every evening. closing my account today,negative,1,0,0,signal drops every evening closing my account today
+851,Telkom,Hellopeter,Network quality,is the network down in Soweto? Please fix.,neutral,0,0,0,is the network down in soweto please fix
+854,MTN,Facebook,Fibre installation,"installation promised in 5 days, now week five. I will not be renewing, you lost me",negative,1,0,0,installation promised in 5 days now week five i will not be renewing you lost me
+857,Telkom,WhatsApp,Customer service,"nobody replies to my queries. I will not be renewing, you lost me",negative,1,0,0,nobody replies to my queries i will not be renewing you lost me
+859,Cell C,Hellopeter,Contract & porting,"they refuse to cancel my contract, I am furious. I will be porting out as soon as I can. my business is losing money #Cell C",negative,1,1,0,they refuse to cancel my contract i am furious i will be porting out as soon as i can my business is losing money #cell c
+860,Cell C,X/Twitter,Billing,"Oh wonderful, billed twice again. Thanks so much Cell C. Ref: 50493",negative,0,0,1,oh wonderful billed twice again thanks so much cell c
+861,MTN,X/Twitter,Network quality,"data speeds are unusable. they asked if I want to cancel the old line, I said no #MTN",negative,0,0,0,data speeds are unusable they asked if i want to cancel the old line i said no #mtn
+862,Rain,Facebook,Network quality,"the tower near us has been down for days, so frustrating Please fix.",negative,0,0,0,the tower near us has been down for days so frustrating please fix
+871,MTN,WhatsApp,Data & pricing,what bundles are available (2nd time asking),neutral,0,0,0,what bundles are available 2nd time asking
+872,MTN,WhatsApp,Contract & porting,stuck in a contract i was misled into. how do i cancel the add-on service only please fix.,negative,0,0,0,stuck in a contract i was misled into how do i cancel the addon service only please fix
+884,Telkom,Facebook,Customer service,"ticket closed with no resolution, this is unacceptable. my business is losing money",negative,0,1,0,ticket closed with no resolution this is unacceptable my business is losing money
+885,MTN,X/Twitter,Data & pricing,"prepaid data expires too quickly. my whole family is moving across, Telkom gave us a quote (2nd time asking)",negative,1,0,0,prepaid data expires too quickly my whole family is moving across telkom gave us a quote 2nd time asking
+899,Vumatel Fibre,WhatsApp,Fibre installation,router delivered but no connection don't expect to see me after this month Ref: 72031,negative,1,0,0,router delivered but no connection don't expect to see me after this month
+900,Rain,X/Twitter,Fibre installation,"the technician never arrived for the third time. i will not be renewing, you lost me",negative,1,0,0,the technician never arrived for the third time i will not be renewing you lost me
+905,Vumatel Fibre,Call-centre note,Billing,out of bundle charges I never agreed to. my business is losing money Please fix.,negative,0,1,0,out of bundle charges i never agreed to my business is losing money please fix
+910,Vumatel Fibre,Facebook,Customer service,the agent was patient and fixed it first time ref: 64706,positive,0,0,0,the agent was patient and fixed it first time
+922,Afrihost Fibre,Hellopeter,Billing,"out of bundle charges I never agreed to, ridiculous. urgent (2nd time asking)",negative,0,1,0,out of bundle charges i never agreed to ridiculous urgent 2nd time asking
+924,Cell C,Call-centre note,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+930,Vumatel Fibre,Facebook,Fibre installation,installation promised in 5 days now week five someone told me to port out I refuse fix this instead,negative,0,0,1,installation promised in 5 days now week five someone told me to port out i refuse fix this instead
+936,Vodacom,Facebook,Network quality,"lte shows full bars but nothing loads, i am furious ref: 12319",negative,0,0,0,lte shows full bars but nothing loads i am furious
+938,Telkom,X/Twitter,Data & pricing,price hike with no notice. do not cancel my contract by mistake like last time,negative,0,1,0,price hike with no notice do not cancel my contract by mistake like last time
+939,MTN,X/Twitter,Data & pricing,the new bundle is great value (2nd time asking),positive,0,0,0,the new bundle is great value 2nd time asking
+940,Telkom,X/Twitter,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+944,Cell C,WhatsApp,Billing,where do I download my invoice? #Cell C,neutral,0,0,0,where do i download my invoice #cell c
+950,Cell C,Call-centre note,Contract & porting,"cancellation fee is not what the salesperson said. not switching, but I want a refund Please fix.",negative,0,0,0,cancellation fee is not what the salesperson said not switching but i want a refund please fix
+951,Afrihost Fibre,Facebook,Network quality,data speeds are unusable completely fed up,negative,0,0,0,data speeds are unusable completely fed up
+956,Afrihost Fibre,X/Twitter,Billing,"out of bundle charges I never agreed to, ridiculous. taking my number to Telkom",negative,1,0,0,out of bundle charges i never agreed to ridiculous taking my number to telkom
+958,Cell C,Call-centre note,Billing,what date does my debit order run #Cell C,neutral,0,0,0,what date does my debit order run #cell c
+963,Rain,WhatsApp,Billing,I was charged twice this month. I will be porting out as soon as I can Ref: 60053,negative,1,0,0,i was charged twice this month i will be porting out as soon as i can
+965,Vodacom,X/Twitter,Contract & porting,porting out is being blocked. taking my business elsewhere Ref: 60344,negative,1,0,0,porting out is being blocked taking my business elsewhere
+976,Telkom,Call-centre note,Billing,I was charged twice this month. I will be porting out as soon as I can,negative,1,0,0,i was charged twice this month i will be porting out as soon as i can
+979,Cell C,Hellopeter,Data & pricing,expensive compared to the competition. don't expect to see me after this month,negative,1,0,0,expensive compared to the competition don't expect to see me after this month
+980,Rain,Facebook,Data & pricing,"my data is finished again, ke tšhaba Ref: 23273",negative,1,0,0,my data is finished again ke tšhaba
+983,Vodacom,WhatsApp,Customer service,"the agent hung up on me, absolutely disgusting. Telkom here I come Please fix.",negative,1,0,0,the agent hung up on me absolutely disgusting telkom here i come please fix
+985,Vumatel Fibre,Hellopeter,Customer service,"nobody replies to my queries. I would never cancel, I just want this fixed #Vumatel Fibre",negative,0,0,0,nobody replies to my queries i would never cancel i just want this fixed #vumatel fibre
+988,Vumatel Fibre,Call-centre note,Customer service,"the agent hung up on me, I am furious",negative,0,0,0,the agent hung up on me i am furious
+995,Cell C,WhatsApp,Customer service,sent to three different departments and nobody owns this #Cell C,negative,0,0,0,sent to three different departments and nobody owns this #cell c
+1007,Vumatel Fibre,Facebook,Network quality,"the tower near us has been down for days. they asked if i want to cancel the old line, i said no",negative,0,0,0,the tower near us has been down for days they asked if i want to cancel the old line i said no
+1013,MTN,Hellopeter,Billing,out of bundle charges i never agreed to. escalating this,negative,0,1,0,out of bundle charges i never agreed to escalating this
+1023,Telkom,X/Twitter,Customer service,support on WhatsApp was quick and helpful Please fix.,positive,0,0,0,support on whatsapp was quick and helpful please fix
+1025,Afrihost Fibre,Facebook,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu (2nd time asking)",negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu 2nd time asking
+1031,Vumatel Fibre,Call-centre note,Network quality,"LTE shows full bars but nothing loads. someone told me to port out. I refuse, fix this instead Ref: 81911",negative,0,1,0,lte shows full bars but nothing loads someone told me to port out i refuse fix this instead
+1035,Telkom,Call-centre note,Network quality,"no coverage at my house since load shedding started, I am furious. my business is losing money",negative,0,1,0,no coverage at my house since load shedding started i am furious my business is losing money
+1038,Vodacom,Call-centre note,Fibre installation,"installation promised in 5 days, now week five. rain here i come ref: 59233",negative,1,0,0,installation promised in 5 days now week five rain here i come
+1045,MTN,X/Twitter,Billing,out of bundle charges I never agreed to. need this fixed today,negative,0,1,0,out of bundle charges i never agreed to need this fixed today
+1055,Vumatel Fibre,Hellopeter,Fibre installation,is fibre available in my street please fix.,neutral,0,0,0,is fibre available in my street please fix
+1058,Cell C,WhatsApp,Fibre installation,"installation promised in 5 days, now week five, this is unacceptable. my business is losing money",negative,0,1,0,installation promised in 5 days now week five this is unacceptable my business is losing money
+1061,Rain,WhatsApp,Contract & porting,porting out is being blocked. please respond,negative,0,1,0,porting out is being blocked please respond
+1064,Vodacom,Facebook,Billing,"Oh wonderful, billed twice again. Thanks so much Vodacom.",negative,0,0,1,oh wonderful billed twice again thanks so much vodacom
+1065,Telkom,Facebook,Network quality,howzit is the network down in Mamelodi? #Telkom,neutral,0,0,0,howzit is the network down in mamelodi #telkom
+1075,Telkom,WhatsApp,Network quality,the tower near us has been down for days (2nd time asking),negative,0,0,0,the tower near us has been down for days 2nd time asking
+1076,MTN,Hellopeter,Billing,eish billed again for nothing #MTN,negative,1,0,0,eish billed again for nothing #mtn
+1078,Cell C,X/Twitter,Fibre installation,"brilliant, the technician no-showed. again. fantastic. i am switching to vumatel fibre this week.",negative,1,0,1,brilliant the technician noshowed again fantastic i am switching to vumatel fibre this week
+1083,MTN,Call-centre note,Customer service,"ticket closed with no resolution, completely fed up Please fix.",negative,0,0,0,ticket closed with no resolution completely fed up please fix
+1092,Vodacom,Hellopeter,Contract & porting,stuck in a contract i was misled into. mtn here i come,positive,1,0,0,stuck in a contract i was misled into mtn here i come
+1096,Vodacom,WhatsApp,Billing,I was charged twice this month. taking my number to Cell C (2nd time asking),negative,1,0,0,i was charged twice this month taking my number to cell c 2nd time asking
+1100,Vodacom,X/Twitter,Data & pricing,"prepaid data expires too quickly, completely fed up. closing my account today. urgent #Vodacom",negative,1,1,0,prepaid data expires too quickly completely fed up closing my account today urgent #vodacom
+1105,Vumatel Fibre,WhatsApp,Customer service,no response from support in two weeks completely fed up please respond,negative,0,1,0,no response from support in two weeks completely fed up please respond
+1109,MTN,WhatsApp,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+1112,Vodacom,Facebook,Contract & porting,"they refuse to cancel my contract, absolutely disgusting. need this fixed today (2nd time asking)",negative,0,1,0,they refuse to cancel my contract absolutely disgusting need this fixed today 2nd time asking
+1113,MTN,Call-centre note,Data & pricing,"prepaid data expires too quickly, completely fed up Ref: 53502",negative,0,0,0,prepaid data expires too quickly completely fed up
+1114,Vodacom,Facebook,Customer service,the agent was patient and fixed it first time #Vodacom,positive,0,0,0,the agent was patient and fixed it first time #vodacom
+1117,Vumatel Fibre,WhatsApp,Network quality,"great job vumatel fibre, another perfect outage. really impressive stuff. (2nd time asking)",negative,0,0,1,great job vumatel fibre another perfect outage really impressive stuff 2nd time asking
+1120,MTN,WhatsApp,Data & pricing,how do I check my balance #MTN,neutral,0,0,0,how do i check my balance #mtn
+1122,MTN,WhatsApp,Billing,"my bill jumped by R400 with no explanation. not switching, but I want a refund",negative,0,0,0,my bill jumped by r400 with no explanation not switching but i want a refund
+1125,Cell C,X/Twitter,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+1126,Telkom,Call-centre note,Billing,expensive compared to the competition. taking my business elsewhere,neutral,1,0,1,expensive compared to the competition taking my business elsewhere
+1128,Telkom,Call-centre note,Customer service,"i have been on hold for 90 minutes, i am furious (2nd time asking)",negative,0,0,0,i have been on hold for 90 minutes i am furious 2nd time asking
+1134,Vodacom,X/Twitter,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+1141,Rain,WhatsApp,Fibre installation,"ticket closed with no resolution. not switching, but I want a refund (2nd time asking)",negative,0,0,1,ticket closed with no resolution not switching but i want a refund 2nd time asking
+1144,MTN,Hellopeter,Customer service,"i have been on hold for 90 minutes, terrible, just terrible. ready to leave mtn for good. need this fixed today (2nd time asking)",negative,1,1,0,i have been on hold for 90 minutes terrible just terrible ready to leave mtn for good need this fixed today 2nd time asking
+1145,Rain,WhatsApp,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+1153,Cell C,Call-centre note,Customer service,the agent hung up on me. taking my number to Afrihost Fibre,negative,1,0,0,the agent hung up on me taking my number to afrihost fibre
+1154,Cell C,Call-centre note,Data & pricing,what bundles are available (2nd time asking),positive,0,0,0,what bundles are available 2nd time asking
+1156,Vumatel Fibre,Hellopeter,Billing,the billing breakdown is clear and accurate Ref: 55543,positive,0,0,0,the billing breakdown is clear and accurate
+1159,Telkom,WhatsApp,Customer service,"sent to three different departments and nobody owns this, terrible, just terrible #Telkom",negative,0,0,0,sent to three different departments and nobody owns this terrible just terrible #telkom
+1160,Vumatel Fibre,WhatsApp,Data & pricing,prepaid data expires too quickly. closing my account today #Vumatel Fibre,negative,1,0,0,prepaid data expires too quickly closing my account today #vumatel fibre
+1170,Telkom,Hellopeter,Customer service,i have been on hold for 90 minutes. that was the last straw (2nd time asking),negative,1,0,0,i have been on hold for 90 minutes that was the last straw 2nd time asking
+1178,Rain,X/Twitter,Data & pricing,"expensive compared to the competition, terrible, just terrible #Rain",negative,0,0,0,expensive compared to the competition terrible just terrible #rain
+1180,Cell C,WhatsApp,Network quality,"sies, the signal here is useless (2nd time asking)",negative,1,0,0,sies the signal here is useless 2nd time asking
+1189,Telkom,Call-centre note,Data & pricing,"my data is finished again, ke tšhaba #Telkom",negative,0,0,0,my data is finished again ke tšhaba #telkom
+1194,Rain,Hellopeter,Contract & porting,cancellation was painless (2nd time asking),positive,0,0,0,cancellation was painless 2nd time asking
+1195,Vodacom,Call-centre note,Network quality,data speeds are unusable,negative,0,0,0,data speeds are unusable
+1196,Rain,Facebook,Network quality,"great job rain, another perfect outage. really impressive stuff. #rain",negative,0,0,1,great job rain another perfect outage really impressive stuff #rain
+1210,Vodacom,Facebook,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+1211,Vumatel Fibre,Facebook,Fibre installation,is fibre available in my street #Vumatel Fibre,neutral,0,0,0,is fibre available in my street #vumatel fibre
+1212,Cell C,Hellopeter,Data & pricing,price hike with no notice. how do i cancel the add-on service only,negative,0,0,0,price hike with no notice how do i cancel the addon service only
+1213,Cell C,Call-centre note,Billing,where do i download my invoice? #cell c,neutral,0,0,0,where do i download my invoice #cell c
+1222,MTN,WhatsApp,Contract & porting,cancellation fee is not what the salesperson said Please fix.,negative,0,0,0,cancellation fee is not what the salesperson said please fix
+1226,MTN,WhatsApp,Billing,"out of bundle charges I never agreed to. my whole family is moving across, Afrihost Fibre gave us a quote",negative,1,0,0,out of bundle charges i never agreed to my whole family is moving across afrihost fibre gave us a quote
+1234,Afrihost Fibre,Hellopeter,Network quality,"Great job Afrihost Fibre, another perfect outage. Really impressive stuff.",negative,0,0,1,great job afrihost fibre another perfect outage really impressive stuff
+1257,Vumatel Fibre,WhatsApp,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+1259,Afrihost Fibre,WhatsApp,Billing,i was charged twice this month. need this fixed today,negative,1,1,0,i was charged twice this month need this fixed today
+1260,Vodacom,Facebook,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+1266,Vodacom,WhatsApp,Fibre installation,router delivered but no connection. closing my account today,negative,1,0,0,router delivered but no connection closing my account today
+1267,Vumatel Fibre,WhatsApp,Data & pricing,the new bundle is great value (2nd time asking),positive,0,0,0,the new bundle is great value 2nd time asking
+1268,Vodacom,Hellopeter,Network quality,calls keep cutting out #vodacom,negative,0,0,0,calls keep cutting out #vodacom
+1276,Afrihost Fibre,Call-centre note,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu",negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu
+1280,MTN,WhatsApp,Billing,"Oh wonderful, billed twice again. Thanks so much MTN. cancelling my contract after this.",negative,1,0,1,oh wonderful billed twice again thanks so much mtn cancelling my contract after this
+1283,MTN,Facebook,Network quality,"Great job MTN, another perfect outage. Really impressive stuff.",neutral,0,0,1,great job mtn another perfect outage really impressive stuff
+1285,MTN,Hellopeter,Data & pricing,price hike with no notice. how do i cancel the add-on service only,negative,0,1,0,price hike with no notice how do i cancel the addon service only
+1286,Afrihost Fibre,Hellopeter,Fibre installation,the technician explained everything #Afrihost Fibre,positive,0,0,0,the technician explained everything #afrihost fibre
+1290,Vodacom,WhatsApp,Fibre installation,"fibre line still not live after paying the setup fee, I am furious. MTN here I come (2nd time asking)",negative,1,0,0,fibre line still not live after paying the setup fee i am furious mtn here i come 2nd time asking
+1291,MTN,Call-centre note,Data & pricing,what bundles are available ref: 86890,neutral,0,0,0,what bundles are available
+1293,Afrihost Fibre,Facebook,Customer service,how do I log a query #Afrihost Fibre,neutral,0,0,0,how do i log a query #afrihost fibre
+1298,MTN,Hellopeter,Contract & porting,how do I port my number #MTN,neutral,0,0,0,how do i port my number #mtn
+1313,Afrihost Fibre,Facebook,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+1322,MTN,X/Twitter,Billing,"eish, billed again for nothing (2nd time asking)",negative,0,0,0,eish billed again for nothing 2nd time asking
+1328,Afrihost Fibre,WhatsApp,Customer service,"i have been on hold for 90 minutes. my whole family is moving across, cell c gave us a quote (2nd time asking)",negative,1,0,0,i have been on hold for 90 minutes my whole family is moving across cell c gave us a quote 2nd time asking
+1335,Vodacom,WhatsApp,Billing,"my bill jumped by r400 with no explanation. i will not be renewing, you lost me (2nd time asking)",negative,0,0,1,my bill jumped by r400 with no explanation i will not be renewing you lost me 2nd time asking
+1341,Afrihost Fibre,Facebook,Network quality,ayikho i-network nakanjani nginenkinga enkulu #Afrihost Fibre,negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu #afrihost fibre
+1342,Afrihost Fibre,Call-centre note,Fibre installation,"expensive compared to the competition. i would never cancel, i just want this fixed",negative,0,0,1,expensive compared to the competition i would never cancel i just want this fixed
+1343,Vodacom,Hellopeter,Contract & porting,porting out is being blocked. need this fixed today Ref: 18321,negative,0,1,0,porting out is being blocked need this fixed today
+1350,Vodacom,X/Twitter,Data & pricing,"my data is finished again, ke tšhaba",negative,0,1,0,my data is finished again ke tšhaba
+1354,Afrihost Fibre,Facebook,Network quality,"great job afrihost fibre, another perfect outage. really impressive stuff. done with afrihost fibre, moving to telkom. (2nd time asking)",negative,1,0,1,great job afrihost fibre another perfect outage really impressive stuff done with afrihost fibre moving to telkom 2nd time asking
+1357,MTN,WhatsApp,Customer service,support on WhatsApp was quick and helpful (2nd time asking),positive,0,0,0,support on whatsapp was quick and helpful 2nd time asking
+1358,Vodacom,WhatsApp,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+1359,Telkom,X/Twitter,Contract & porting,porting out is being blocked. taking my number to Cell C (2nd time asking),negative,1,0,0,porting out is being blocked taking my number to cell c 2nd time asking
+1360,Vumatel Fibre,WhatsApp,Billing,"i was charged twice this month, ridiculous. @vumatel fibre please help",negative,0,1,0,i was charged twice this month ridiculous @vumatel fibre please help
+1365,Vodacom,WhatsApp,Data & pricing,"price hike with no notice, so frustrating Please fix.",negative,0,0,0,price hike with no notice so frustrating please fix
+1372,Vodacom,WhatsApp,Data & pricing,price hike with no notice my contract ends next month and I am not renewing,negative,1,1,0,price hike with no notice my contract ends next month and i am not renewing
+1373,Telkom,Call-centre note,Billing,the billing breakdown is clear and accurate,neutral,0,0,0,the billing breakdown is clear and accurate
+1377,Cell C,X/Twitter,Network quality,is the network down in soweto? please fix.,neutral,0,0,0,is the network down in soweto please fix
+1379,Vodacom,WhatsApp,Fibre installation,install was done in two days very professional #Vodacom,positive,0,0,0,install was done in two days very professional #vodacom
+1383,Vumatel Fibre,Facebook,Fibre installation,"installation promised in 5 days, now week five. I work from home and this is critical (2nd time asking)",negative,0,1,0,installation promised in 5 days now week five i work from home and this is critical 2nd time asking
+1384,Vumatel Fibre,Facebook,Network quality,the tower near us has been down for days. do not cancel my contract by mistake like last time (2nd time asking),negative,0,0,0,the tower near us has been down for days do not cancel my contract by mistake like last time 2nd time asking
+1390,Cell C,Hellopeter,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+1403,Afrihost Fibre,Hellopeter,Network quality,"Great job Afrihost Fibre, another perfect outage. Really impressive stuff.",negative,0,0,1,great job afrihost fibre another perfect outage really impressive stuff
+1405,Rain,Call-centre note,Data & pricing,expensive compared to the competition. Telkom has a better deal and honestly I am tempted. one more strike and I am gone (2nd time asking),negative,1,0,0,expensive compared to the competition telkom has a better deal and honestly i am tempted one more strike and i am gone 2nd time asking
+1410,Afrihost Fibre,WhatsApp,Data & pricing,"expensive compared to the competition, this is unacceptable #Afrihost Fibre",negative,0,0,0,expensive compared to the competition this is unacceptable #afrihost fibre
+1415,Vumatel Fibre,Call-centre note,Billing,"my bill jumped by R400 with no explanation, this is unacceptable. urgent Please fix.",negative,0,1,0,my bill jumped by r400 with no explanation this is unacceptable urgent please fix
+1423,Afrihost Fibre,Call-centre note,Contract & porting,cancellation was painless (2nd time asking),positive,0,0,0,cancellation was painless 2nd time asking
+1426,Afrihost Fibre,Call-centre note,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+1434,Telkom,WhatsApp,Billing,"I was charged twice this month, so frustrating. cancelling my contract after this #Telkom",negative,1,0,0,i was charged twice this month so frustrating cancelling my contract after this #telkom
+1436,Cell C,WhatsApp,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+1437,Cell C,Call-centre note,Billing,Oh wonderful billed twice again Thanks so much Cell C,negative,0,0,1,oh wonderful billed twice again thanks so much cell c
+1441,Rain,X/Twitter,Customer service,i have been on hold for 90 minutes. how do i cancel the add-on service only #rain,negative,0,0,0,i have been on hold for 90 minutes how do i cancel the addon service only #rain
+1444,Vumatel Fibre,Hellopeter,Fibre installation,Brilliant the technician no-showed Again Fantastic #Vumatel Fibre,negative,0,0,1,brilliant the technician noshowed again fantastic #vumatel fibre
+1445,Telkom,Facebook,Fibre installation,the technician never arrived for the third time terrible just terrible closing my account today need this fixed today,negative,1,1,0,the technician never arrived for the third time terrible just terrible closing my account today need this fixed today
+1448,Rain,WhatsApp,Billing,the billing breakdown is clear and accurate ref: 84269,positive,0,0,0,the billing breakdown is clear and accurate
+1449,Afrihost Fibre,X/Twitter,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+1455,MTN,Hellopeter,Billing,"airtime was deducted for a service i never used, this is unacceptable. this is my last month with you (2nd time asking)",negative,1,0,0,airtime was deducted for a service i never used this is unacceptable this is my last month with you 2nd time asking
+1456,Vodacom,WhatsApp,Fibre installation,is fibre available in my street please fix.,neutral,0,0,0,is fibre available in my street please fix
+1462,Afrihost Fibre,Hellopeter,Customer service,love waiting 90 minutes on hold. best service ever afrihost fibre. (2nd time asking),negative,0,0,1,love waiting 90 minutes on hold best service ever afrihost fibre 2nd time asking
+1465,Telkom,Facebook,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu",negative,0,1,0,ayikho inetwork nakanjani nginenkinga enkulu
+1469,Vodacom,X/Twitter,Network quality,no coverage at my house since load shedding started. escalating this please fix.,negative,0,1,0,no coverage at my house since load shedding started escalating this please fix
+1474,MTN,Hellopeter,Fibre installation,"router delivered but no connection, ridiculous #MTN",negative,0,0,0,router delivered but no connection ridiculous #mtn
+1485,Telkom,Call-centre note,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+1487,Vumatel Fibre,Call-centre note,Billing,I was charged twice this month don't expect to see me after this month (2nd time asking),negative,1,0,0,i was charged twice this month don't expect to see me after this month 2nd time asking
+1488,Cell C,WhatsApp,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+1495,Vumatel Fibre,Hellopeter,Customer service,the agent was patient and fixed it first time Ref: 66933,positive,0,0,0,the agent was patient and fixed it first time
+1498,Afrihost Fibre,X/Twitter,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+1501,Afrihost Fibre,Hellopeter,Billing,"airtime was deducted for a service i never used. my friend ported to mtn and loves it, i am staying put",negative,0,0,0,airtime was deducted for a service i never used my friend ported to mtn and loves it i am staying put
+1504,Vodacom,X/Twitter,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+1506,Rain,X/Twitter,Contract & porting,they refuse to cancel my contract. I am switching to Vodacom this week. @Rain please help,negative,1,1,0,they refuse to cancel my contract i am switching to vodacom this week @rain please help
+1512,Cell C,X/Twitter,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+1513,Vumatel Fibre,Facebook,Fibre installation,"the technician never arrived for the third time, terrible, just terrible. MTN here I come. urgent #Vumatel Fibre",negative,0,1,0,the technician never arrived for the third time terrible just terrible mtn here i come urgent #vumatel fibre
+1521,Vodacom,Call-centre note,Fibre installation,router delivered but no connection. urgent,negative,0,1,0,router delivered but no connection urgent
+1527,Rain,WhatsApp,Data & pricing,"my data is finished again, ke tšhaba ref: 47603",negative,0,0,0,my data is finished again ke tšhaba
+1528,MTN,Facebook,Fibre installation,"installation promised in 5 days, now week five, terrible, just terrible. I am switching to Telkom this week Ref: 74079",negative,1,0,0,installation promised in 5 days now week five terrible just terrible i am switching to telkom this week
+1530,Vodacom,Call-centre note,Contract & porting,what is the cancellation notice period #Vodacom,neutral,0,0,0,what is the cancellation notice period #vodacom
+1534,Afrihost Fibre,Facebook,Data & pricing,what bundles are available ref: 18687,neutral,0,0,0,what bundles are available
+1544,MTN,Facebook,Fibre installation,is fibre available in my street #MTN,neutral,0,0,0,is fibre available in my street #mtn
+1547,Afrihost Fibre,X/Twitter,Network quality,"data speeds are unusable, terrible, just terrible please fix.",negative,0,0,0,data speeds are unusable terrible just terrible please fix
+1556,Vodacom,Hellopeter,Customer service,"installation promised in 5 days, now week five. Vumatel Fibre has a better deal and honestly I am tempted. one more strike and I am gone",negative,1,0,1,installation promised in 5 days now week five vumatel fibre has a better deal and honestly i am tempted one more strike and i am gone
+1558,Vodacom,X/Twitter,Network quality,"the tower near us has been down for days, so frustrating. need this fixed today #Vodacom",negative,0,1,0,the tower near us has been down for days so frustrating need this fixed today #vodacom
+1569,Vumatel Fibre,WhatsApp,Data & pricing,price hike with no notice. escalating this,negative,0,1,0,price hike with no notice escalating this
+1575,Rain,WhatsApp,Network quality,"data speeds are unusable. they asked if I want to cancel the old line, I said no (2nd time asking)",negative,1,0,0,data speeds are unusable they asked if i want to cancel the old line i said no 2nd time asking
+1576,MTN,Call-centre note,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+1581,Vumatel Fibre,Facebook,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+1588,Rain,X/Twitter,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+1590,Rain,WhatsApp,Data & pricing,what bundles are available (2nd time asking),neutral,0,0,0,what bundles are available 2nd time asking
+1594,Cell C,WhatsApp,Billing,"debit order went off for a cancelled line. not switching, but I want a refund",negative,0,0,0,debit order went off for a cancelled line not switching but i want a refund
+1600,Telkom,X/Twitter,Data & pricing,my data is finished again ke tšhaba #telkom,negative,0,0,0,my data is finished again ke tšhaba #telkom
+1602,Cell C,Hellopeter,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+1611,MTN,Hellopeter,Data & pricing,price hike with no notice. @MTN please help,negative,0,1,0,price hike with no notice @mtn please help
+1616,Cell C,X/Twitter,Contract & porting,they refuse to cancel my contract (2nd time asking),negative,0,0,0,they refuse to cancel my contract 2nd time asking
+1621,Telkom,WhatsApp,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+1623,Cell C,Facebook,Fibre installation,the technician never arrived for the third time. this is my last month with you. need this fixed today (2nd time asking),negative,1,1,0,the technician never arrived for the third time this is my last month with you need this fixed today 2nd time asking
+1626,Afrihost Fibre,Hellopeter,Contract & porting,porting out is being blocked,negative,0,0,0,porting out is being blocked
+1628,Vodacom,Hellopeter,Customer service,nobody replies to my queries. closing my account today. escalating this Please fix.,negative,0,1,0,nobody replies to my queries closing my account today escalating this please fix
+1629,Telkom,WhatsApp,Data & pricing,what bundles are available Ref: 27019,neutral,0,0,0,what bundles are available
+1634,Afrihost Fibre,WhatsApp,Contract & porting,cancellation fee is not what the salesperson said they asked if I want to cancel the old line I said no Ref: 34300,negative,0,0,0,cancellation fee is not what the salesperson said they asked if i want to cancel the old line i said no
+1638,Rain,WhatsApp,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+1648,MTN,Hellopeter,Fibre installation,"router delivered but no connection, this is unacceptable. i work from home and this is critical",negative,0,1,0,router delivered but no connection this is unacceptable i work from home and this is critical
+1649,Cell C,X/Twitter,Contract & porting,porting out is being blocked,negative,0,0,0,porting out is being blocked
+1656,Vodacom,X/Twitter,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu Ref: 11834",negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu
+1662,MTN,Call-centre note,Billing,"eish, billed again for nothing (2nd time asking)",negative,0,0,0,eish billed again for nothing 2nd time asking
+1667,Vodacom,Hellopeter,Customer service,Love waiting 90 minutes on hold. Best service ever Vodacom. I am switching to Vumatel Fibre this week. Ref: 59016,negative,1,0,1,love waiting 90 minutes on hold best service ever vodacom i am switching to vumatel fibre this week
+1674,Vumatel Fibre,WhatsApp,Billing,the billing breakdown is clear and accurate Ref: 18236,positive,0,0,0,the billing breakdown is clear and accurate
+1675,Telkom,WhatsApp,Data & pricing,the new bundle is great value (2nd time asking),positive,0,0,0,the new bundle is great value 2nd time asking
+1682,MTN,Call-centre note,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,1,my data is finished again ke tšhaba
+1688,Telkom,Hellopeter,Customer service,what are the call centre hours (2nd time asking),neutral,0,0,0,what are the call centre hours 2nd time asking
+1691,Rain,X/Twitter,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+1693,Afrihost Fibre,Facebook,Network quality,"signal drops every evening, absolutely disgusting. please respond Please fix.",negative,0,1,0,signal drops every evening absolutely disgusting please respond please fix
+1694,Afrihost Fibre,WhatsApp,Fibre installation,is fibre available in my street #Afrihost Fibre,neutral,0,0,0,is fibre available in my street #afrihost fibre
+1699,Telkom,WhatsApp,Fibre installation,router delivered but no connection #Telkom,negative,0,0,0,router delivered but no connection #telkom
+1701,Afrihost Fibre,Call-centre note,Fibre installation,"the technician never arrived for the third time. someone told me to port out. I refuse, fix this instead",negative,0,0,0,the technician never arrived for the third time someone told me to port out i refuse fix this instead
+1704,MTN,X/Twitter,Customer service,no response from support in two weeks (2nd time asking),negative,0,0,0,no response from support in two weeks 2nd time asking
+1709,Vumatel Fibre,Call-centre note,Billing,"I was charged twice this month. not switching, but I want a refund",negative,0,0,0,i was charged twice this month not switching but i want a refund
+1712,Cell C,WhatsApp,Customer service,"the agent hung up on me, completely fed up",negative,0,0,0,the agent hung up on me completely fed up
+1714,Telkom,Hellopeter,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu",negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu
+1715,Vumatel Fibre,Facebook,Billing,what date does my debit order run #Vumatel Fibre,neutral,0,0,0,what date does my debit order run #vumatel fibre
+1717,Afrihost Fibre,WhatsApp,Billing,"Oh wonderful, billed twice again. Thanks so much Afrihost Fibre. Please fix.",negative,0,0,1,oh wonderful billed twice again thanks so much afrihost fibre please fix
+1733,Cell C,WhatsApp,Fibre installation,"the technician never arrived for the third time, so frustrating. escalating this",negative,0,1,0,the technician never arrived for the third time so frustrating escalating this
+1740,Afrihost Fibre,WhatsApp,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+1742,Vodacom,Facebook,Contract & porting,"porting out is being blocked, absolutely disgusting. Telkom here I come. my business is losing money",negative,1,1,0,porting out is being blocked absolutely disgusting telkom here i come my business is losing money
+1745,MTN,X/Twitter,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+1749,Rain,Call-centre note,Fibre installation,the technician never arrived for the third time #rain,negative,0,0,0,the technician never arrived for the third time #rain
+1752,Telkom,X/Twitter,Billing,"prepaid data expires too quickly. I have already requested my PAC, so you have until Friday (2nd time asking)",negative,1,0,1,prepaid data expires too quickly i have already requested my pac so you have until friday 2nd time asking
+1757,Vodacom,Facebook,Fibre installation,"fibre line still not live after paying the setup fee, I am furious. Cell C here I come. I work from home and this is critical (2nd time asking)",negative,1,1,0,fibre line still not live after paying the setup fee i am furious cell c here i come i work from home and this is critical 2nd time asking
+1763,Afrihost Fibre,WhatsApp,Billing,the billing breakdown is clear and accurate Ref: 51617,positive,0,0,0,the billing breakdown is clear and accurate
+1764,Vodacom,Call-centre note,Billing,I was charged twice this month completely fed up I am switching to Vumatel Fibre this week (2nd time asking),neutral,1,0,0,i was charged twice this month completely fed up i am switching to vumatel fibre this week 2nd time asking
+1766,Telkom,Call-centre note,Fibre installation,"ag man, still waiting for the technician (2nd time asking)",negative,0,0,1,ag man still waiting for the technician 2nd time asking
+1771,Vodacom,Facebook,Contract & porting,stuck in a contract I was misled into so frustrating escalating this #Vodacom,negative,0,1,0,stuck in a contract i was misled into so frustrating escalating this #vodacom
+1772,Vumatel Fibre,Call-centre note,Billing,the billing breakdown is clear and accurate ref: 59102,positive,0,0,0,the billing breakdown is clear and accurate
+1776,Vumatel Fibre,Facebook,Customer service,the agent was patient and fixed it first time ref: 97108,positive,0,0,0,the agent was patient and fixed it first time
+1777,Vumatel Fibre,Facebook,Fibre installation,is fibre available in my street Please fix.,neutral,0,0,0,is fibre available in my street please fix
+1780,Vodacom,Call-centre note,Contract & porting,"they refuse to cancel my contract, completely fed up. taking my number to afrihost fibre ref: 13283",negative,1,0,0,they refuse to cancel my contract completely fed up taking my number to afrihost fibre
+1781,Vumatel Fibre,Call-centre note,Fibre installation,"fibre line still not live after paying the setup fee. I would never cancel, I just want this fixed Please fix.",negative,0,0,0,fibre line still not live after paying the setup fee i would never cancel i just want this fixed please fix
+1782,Vodacom,X/Twitter,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+1788,Telkom,Facebook,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+1790,Afrihost Fibre,WhatsApp,Data & pricing,"lekker, the new bundle is sharp (2nd time asking)",positive,0,0,0,lekker the new bundle is sharp 2nd time asking
+1797,MTN,Facebook,Data & pricing,"expensive compared to the competition. they asked if I want to cancel the old line, I said no",negative,0,0,0,expensive compared to the competition they asked if i want to cancel the old line i said no
+1801,Vumatel Fibre,WhatsApp,Customer service,Love waiting 90 minutes on hold Best service ever Vumatel Fibre taking my number to MTN Ref: 57304,negative,1,0,1,love waiting 90 minutes on hold best service ever vumatel fibre taking my number to mtn
+1807,Vodacom,Hellopeter,Billing,the technician never arrived for the third time. my contract ends next month and I am not renewing Ref: 70628,negative,1,0,1,the technician never arrived for the third time my contract ends next month and i am not renewing
+1814,Vodacom,WhatsApp,Data & pricing,"expensive compared to the competition. they asked if I want to cancel the old line, I said no Ref: 51709",negative,0,0,0,expensive compared to the competition they asked if i want to cancel the old line i said no
+1821,Vumatel Fibre,Hellopeter,Billing,"i was charged twice this month, ridiculous. mtn here i come #vumatel fibre",negative,1,0,0,i was charged twice this month ridiculous mtn here i come #vumatel fibre
+1824,Cell C,WhatsApp,Contract & porting,porting out is being blocked Ref: 27602,negative,1,0,0,porting out is being blocked
+1844,Vodacom,Call-centre note,Billing,"I was charged twice this month, I am furious",negative,0,0,0,i was charged twice this month i am furious
+1846,Rain,Facebook,Fibre installation,"installation promised in 5 days, now week five. taking my number to MTN. my business is losing money",negative,1,1,0,installation promised in 5 days now week five taking my number to mtn my business is losing money
+1852,Telkom,Call-centre note,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+1857,MTN,WhatsApp,Contract & porting,porting out is being blocked #MTN,negative,0,0,0,porting out is being blocked #mtn
+1862,Vumatel Fibre,Facebook,Data & pricing,my data is finished again ke tšhaba,negative,0,0,0,my data is finished again ke tšhaba
+1864,MTN,Hellopeter,Customer service,I have been on hold for 90 minutes I am furious Please fix,negative,0,0,0,i have been on hold for 90 minutes i am furious please fix
+1867,Rain,X/Twitter,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+1874,Vodacom,Facebook,Customer service,"the agent hung up on me, I am furious",negative,0,0,0,the agent hung up on me i am furious
+1879,Vodacom,WhatsApp,Network quality,the tower near us has been down for days ready to leave Vodacom for good Please fix,negative,1,0,0,the tower near us has been down for days ready to leave vodacom for good please fix
+1904,Rain,WhatsApp,Data & pricing,"price hike with no notice. done with Rain, moving to Afrihost Fibre. @Rain please help",negative,1,1,0,price hike with no notice done with rain moving to afrihost fibre @rain please help
+1908,Telkom,Hellopeter,Customer service,the agent was patient and fixed it first time ref: 32465,positive,0,0,0,the agent was patient and fixed it first time
+1912,Vumatel Fibre,Hellopeter,Contract & porting,"porting out is being blocked, ridiculous. cancelling my contract after this. @Vumatel Fibre please help",negative,1,1,0,porting out is being blocked ridiculous cancelling my contract after this @vumatel fibre please help
+1914,Vumatel Fibre,Facebook,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+1921,Telkom,WhatsApp,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+1923,Rain,Facebook,Fibre installation,"router delivered but no connection. my friend ported to vumatel fibre and loves it, i am staying put (2nd time asking)",negative,0,0,0,router delivered but no connection my friend ported to vumatel fibre and loves it i am staying put 2nd time asking
+1926,Vumatel Fibre,WhatsApp,Contract & porting,"cancellation fee is not what the salesperson said, terrible, just terrible",negative,0,0,0,cancellation fee is not what the salesperson said terrible just terrible
+1929,Vodacom,X/Twitter,Fibre installation,"fibre line still not live after paying the setup fee, terrible, just terrible",negative,0,0,0,fibre line still not live after paying the setup fee terrible just terrible
+1940,Vodacom,Hellopeter,Billing,"Oh wonderful, billed twice again. Thanks so much Vodacom.",negative,0,0,1,oh wonderful billed twice again thanks so much vodacom
+1941,Telkom,Hellopeter,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+1943,Rain,WhatsApp,Customer service,sent to three different departments and nobody owns this,negative,0,0,0,sent to three different departments and nobody owns this
+1945,Rain,WhatsApp,Data & pricing,"expensive compared to the competition, completely fed up. this is my last month with you Ref: 42002",negative,1,0,0,expensive compared to the competition completely fed up this is my last month with you
+1946,Vumatel Fibre,Call-centre note,Network quality,the tower near us has been down for days Ref: 27102,negative,0,0,0,the tower near us has been down for days
+1953,MTN,Hellopeter,Fibre installation,"ag man, still waiting for the technician (2nd time asking)",negative,0,0,0,ag man still waiting for the technician 2nd time asking
+1954,Rain,Call-centre note,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+1956,Afrihost Fibre,Hellopeter,Data & pricing,lekker the new bundle is sharp (2nd time asking),positive,0,0,0,lekker the new bundle is sharp 2nd time asking
+1960,Vumatel Fibre,WhatsApp,Fibre installation,is fibre available in my street Please fix.,neutral,0,0,0,is fibre available in my street please fix
+1962,Vumatel Fibre,Facebook,Contract & porting,"cancellation fee is not what the salesperson said. I will not be renewing, you lost me",negative,1,0,0,cancellation fee is not what the salesperson said i will not be renewing you lost me
+1968,Vumatel Fibre,Facebook,Customer service,"I have been on hold for 90 minutes, I am furious",negative,0,0,0,i have been on hold for 90 minutes i am furious
+1970,Vodacom,Facebook,Customer service,"no response from support in two weeks. I have already requested my PAC, so you have until Friday Ref: 99709",negative,1,1,0,no response from support in two weeks i have already requested my pac so you have until friday
+1971,Rain,Call-centre note,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+1984,Vumatel Fibre,X/Twitter,Contract & porting,they refuse to cancel my contract Please fix.,negative,0,0,0,they refuse to cancel my contract please fix
+1987,Rain,X/Twitter,Fibre installation,"Brilliant, the technician no-showed. Again. Fantastic. #Rain",negative,1,0,1,brilliant the technician noshowed again fantastic #rain
+1988,MTN,Hellopeter,Billing,"oh wonderful, billed twice again. thanks so much mtn. (2nd time asking)",negative,0,0,1,oh wonderful billed twice again thanks so much mtn 2nd time asking
+1993,Cell C,Facebook,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+1994,MTN,Facebook,Customer service,support on WhatsApp was quick and helpful (2nd time asking),positive,0,0,0,support on whatsapp was quick and helpful 2nd time asking
+1996,Vodacom,Hellopeter,Customer service,the agent was patient and fixed it first time Ref: 49225,positive,0,0,0,the agent was patient and fixed it first time
+1999,Cell C,WhatsApp,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+2000,MTN,X/Twitter,Data & pricing,what bundles are available (2nd time asking),neutral,0,0,0,what bundles are available 2nd time asking
+2003,Vodacom,Facebook,Customer service,"the agent hung up on me, absolutely disgusting. taking my number to Rain",negative,1,0,0,the agent hung up on me absolutely disgusting taking my number to rain
+2014,Vodacom,WhatsApp,Billing,out of bundle charges I never agreed to. I will be porting out as soon as I can,negative,1,0,0,out of bundle charges i never agreed to i will be porting out as soon as i can
+2017,Vodacom,Hellopeter,Network quality,calls are crystal clear now (2nd time asking),positive,0,0,0,calls are crystal clear now 2nd time asking
+2021,MTN,WhatsApp,Fibre installation,is fibre available in my street Please fix,neutral,0,0,0,is fibre available in my street please fix
+2029,MTN,Call-centre note,Customer service,no response from support in two weeks. I am switching to Cell C this week (2nd time asking),negative,1,0,0,no response from support in two weeks i am switching to cell c this week 2nd time asking
+2032,Cell C,Hellopeter,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+2034,Afrihost Fibre,X/Twitter,Fibre installation,"router delivered but no connection, ridiculous (2nd time asking)",negative,0,0,0,router delivered but no connection ridiculous 2nd time asking
+2039,Cell C,Hellopeter,Data & pricing,"lekker, the new bundle is sharp (2nd time asking)",positive,0,0,0,lekker the new bundle is sharp 2nd time asking
+2051,Rain,WhatsApp,Network quality,the tower near us has been down for days,negative,0,0,0,the tower near us has been down for days
+2056,Rain,X/Twitter,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu Ref: 12954",negative,1,1,0,ayikho inetwork nakanjani nginenkinga enkulu
+2063,Vumatel Fibre,Hellopeter,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+2065,Telkom,WhatsApp,Customer service,"I have been on hold for 90 minutes, ridiculous. ready to leave Telkom for good",negative,1,0,0,i have been on hold for 90 minutes ridiculous ready to leave telkom for good
+2067,Telkom,WhatsApp,Billing,"I was charged twice this month, ridiculous. closing my account today",negative,1,0,0,i was charged twice this month ridiculous closing my account today
+2070,Vodacom,X/Twitter,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+2080,Vumatel Fibre,WhatsApp,Data & pricing,"prepaid data expires too quickly, completely fed up (2nd time asking)",negative,0,0,0,prepaid data expires too quickly completely fed up 2nd time asking
+2081,Vodacom,X/Twitter,Network quality,"calls keep cutting out, ridiculous. taking my number to cell c. i work from home and this is critical",negative,1,1,0,calls keep cutting out ridiculous taking my number to cell c i work from home and this is critical
+2089,Vumatel Fibre,WhatsApp,Network quality,the tower near us has been down for days #Vumatel Fibre,negative,0,0,0,the tower near us has been down for days #vumatel fibre
+2092,MTN,Call-centre note,Data & pricing,"my data depleted in a day for no reason, so frustrating",negative,0,0,0,my data depleted in a day for no reason so frustrating
+2103,Afrihost Fibre,Call-centre note,Data & pricing,the new bundle is great value (2nd time asking),positive,0,0,0,the new bundle is great value 2nd time asking
+2104,MTN,X/Twitter,Network quality,they refuse to cancel my contract. Rain has a better deal and honestly I am tempted. one more strike and I am gone Ref: 39715,negative,1,0,1,they refuse to cancel my contract rain has a better deal and honestly i am tempted one more strike and i am gone
+2107,Rain,X/Twitter,Data & pricing,my data depleted in a day for no reason. @Rain please help #Rain,negative,0,1,0,my data depleted in a day for no reason @rain please help #rain
+2109,Rain,Hellopeter,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+2115,Vumatel Fibre,Call-centre note,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+2121,Vumatel Fibre,Call-centre note,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+2125,Afrihost Fibre,Call-centre note,Fibre installation,"installation promised in 5 days, now week five. do not cancel my contract by mistake like last time",negative,0,0,0,installation promised in 5 days now week five do not cancel my contract by mistake like last time
+2128,Vumatel Fibre,Facebook,Billing,the billing breakdown is clear and accurate ref: 11592,positive,0,0,0,the billing breakdown is clear and accurate
+2132,MTN,Call-centre note,Customer service,"nobody replies to my queries, this is unacceptable Ref: 44221",negative,0,0,0,nobody replies to my queries this is unacceptable
+2135,MTN,X/Twitter,Fibre installation,"Brilliant, the technician no-showed. Again. Fantastic. #MTN",negative,0,0,1,brilliant the technician noshowed again fantastic #mtn
+2140,Telkom,Facebook,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+2146,MTN,X/Twitter,Customer service,love waiting 90 minutes on hold best service ever mtn please fix,negative,0,0,1,love waiting 90 minutes on hold best service ever mtn please fix
+2148,Rain,X/Twitter,Contract & porting,porting out is being blocked. this is my last month with you,positive,1,0,0,porting out is being blocked this is my last month with you
+2150,Afrihost Fibre,Facebook,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu",negative,1,0,0,ayikho inetwork nakanjani nginenkinga enkulu
+2157,MTN,Call-centre note,Data & pricing,"lekker, the new bundle is sharp (2nd time asking)",positive,0,0,1,lekker the new bundle is sharp 2nd time asking
+2169,Telkom,Hellopeter,Network quality,"signal drops every evening, absolutely disgusting Ref: 29843",negative,0,0,0,signal drops every evening absolutely disgusting
+2171,Telkom,Call-centre note,Fibre installation,"fibre line still not live after paying the setup fee, so frustrating",negative,0,0,0,fibre line still not live after paying the setup fee so frustrating
+2187,Vumatel Fibre,X/Twitter,Data & pricing,"expensive compared to the competition, so frustrating #vumatel fibre",negative,0,0,0,expensive compared to the competition so frustrating #vumatel fibre
+2188,Vodacom,Hellopeter,Billing,stuck in a contract i was misled into. do not cancel my contract by mistake like last time #vodacom,negative,0,0,1,stuck in a contract i was misled into do not cancel my contract by mistake like last time #vodacom
+2190,Cell C,Facebook,Customer service,"I have been on hold for 90 minutes, completely fed up #Cell C",negative,0,0,0,i have been on hold for 90 minutes completely fed up #cell c
+2191,Cell C,WhatsApp,Customer service,"Love waiting 90 minutes on hold. Best service ever Cell C. done with Cell C, moving to Telkom.",negative,1,0,1,love waiting 90 minutes on hold best service ever cell c done with cell c moving to telkom
+2198,Cell C,X/Twitter,Billing,"Oh wonderful, billed twice again. Thanks so much Cell C.",negative,0,0,1,oh wonderful billed twice again thanks so much cell c
+2203,Cell C,Call-centre note,Fibre installation,fibre line still not live after paying the setup fee Please fix.,negative,0,0,0,fibre line still not live after paying the setup fee please fix
+2208,Telkom,Facebook,Contract & porting,"stuck in a contract I was misled into. they asked if I want to cancel the old line, I said no",negative,0,0,0,stuck in a contract i was misled into they asked if i want to cancel the old line i said no
+2218,Telkom,WhatsApp,Fibre installation,is fibre available in my street Please fix.,neutral,0,0,0,is fibre available in my street please fix
+2221,Rain,Hellopeter,Contract & porting,cancellation fee is not what the salesperson said #Rain,negative,0,0,0,cancellation fee is not what the salesperson said #rain
+2226,Telkom,WhatsApp,Network quality,"howzit, is the network down in Mamelodi? #Telkom",neutral,0,0,0,howzit is the network down in mamelodi #telkom
+2237,Rain,Call-centre note,Fibre installation,"router delivered but no connection. someone told me to port out. I refuse, fix this instead Please fix.",negative,0,0,0,router delivered but no connection someone told me to port out i refuse fix this instead please fix
+2238,Telkom,Call-centre note,Network quality,"calls keep cutting out, I am furious. my business is losing money (2nd time asking)",negative,0,1,0,calls keep cutting out i am furious my business is losing money 2nd time asking
+2250,Cell C,Facebook,Billing,"Oh wonderful, billed twice again. Thanks so much Cell C.",negative,0,0,1,oh wonderful billed twice again thanks so much cell c
+2251,Rain,Facebook,Fibre installation,"installation promised in 5 days, now week five, absolutely disgusting #Rain",negative,0,0,0,installation promised in 5 days now week five absolutely disgusting #rain
+2257,Rain,Facebook,Fibre installation,"Brilliant, the technician no-showed. Again. Fantastic. #Rain",negative,0,0,1,brilliant the technician noshowed again fantastic #rain
+2258,Vodacom,WhatsApp,Contract & porting,"cancellation fee is not what the salesperson said, this is unacceptable. @vodacom please help (2nd time asking)",negative,0,1,0,cancellation fee is not what the salesperson said this is unacceptable @vodacom please help 2nd time asking
+2260,Cell C,Call-centre note,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu #Cell C",negative,0,0,1,ayikho inetwork nakanjani nginenkinga enkulu #cell c
+2265,Vumatel Fibre,WhatsApp,Billing,i was charged twice this month. need this fixed today ref: 23936,negative,0,1,0,i was charged twice this month need this fixed today
+2269,Cell C,WhatsApp,Billing,"out of bundle charges I never agreed to, completely fed up. done with Cell C, moving to MTN",negative,0,0,0,out of bundle charges i never agreed to completely fed up done with cell c moving to mtn
+2270,Cell C,Hellopeter,Network quality,"Great job Cell C, another perfect outage. Really impressive stuff.",negative,1,0,1,great job cell c another perfect outage really impressive stuff
+2274,MTN,X/Twitter,Fibre installation,"installation promised in 5 days, now week five, ridiculous. please respond",negative,0,1,0,installation promised in 5 days now week five ridiculous please respond
+2277,Rain,Hellopeter,Network quality,data speeds are unusable Ref: 62964,negative,0,0,0,data speeds are unusable
+2283,Afrihost Fibre,WhatsApp,Fibre installation,"router delivered but no connection. my whole family is moving across, telkom gave us a quote",negative,1,0,0,router delivered but no connection my whole family is moving across telkom gave us a quote
+2288,Cell C,Hellopeter,Fibre installation,signal drops every evening. Rain has a better deal and honestly I am tempted. one more strike and I am gone,negative,1,0,1,signal drops every evening rain has a better deal and honestly i am tempted one more strike and i am gone
+2290,Afrihost Fibre,Facebook,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+2294,Vumatel Fibre,X/Twitter,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+2298,Afrihost Fibre,Call-centre note,Customer service,ticket closed with no resolution. escalating this,negative,0,1,0,ticket closed with no resolution escalating this
+2313,MTN,Call-centre note,Customer service,"sent to three different departments and nobody owns this, completely fed up",negative,0,0,0,sent to three different departments and nobody owns this completely fed up
+2319,Vodacom,X/Twitter,Network quality,"sies, the signal here is useless (2nd time asking)",negative,0,0,0,sies the signal here is useless 2nd time asking
+2328,Afrihost Fibre,Hellopeter,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+2329,Afrihost Fibre,WhatsApp,Fibre installation,"installation promised in 5 days, now week five. do not cancel my contract by mistake like last time",negative,0,0,0,installation promised in 5 days now week five do not cancel my contract by mistake like last time
+2336,Telkom,Facebook,Network quality,"installation promised in 5 days, now week five. my whole family is moving across, vodacom gave us a quote",negative,1,0,1,installation promised in 5 days now week five my whole family is moving across vodacom gave us a quote
+2338,Telkom,Call-centre note,Billing,my bill jumped by R400 with no explanation need this fixed today,negative,0,1,0,my bill jumped by r400 with no explanation need this fixed today
+2349,Vodacom,Call-centre note,Billing,"oh wonderful, billed twice again. thanks so much vodacom.",negative,0,0,1,oh wonderful billed twice again thanks so much vodacom
+2350,Telkom,Hellopeter,Contract & porting,porting out is being blocked ref: 14595,negative,0,0,0,porting out is being blocked
+2354,Vodacom,WhatsApp,Data & pricing,expensive compared to the competition. cancelling my contract after this Please fix.,negative,1,0,0,expensive compared to the competition cancelling my contract after this please fix
+2363,Telkom,X/Twitter,Data & pricing,expensive compared to the competition. this is my last month with you #Telkom,negative,1,0,0,expensive compared to the competition this is my last month with you #telkom
+2367,MTN,WhatsApp,Data & pricing,"my data depleted in a day for no reason, i am furious. my business is losing money ref: 40057",negative,0,1,0,my data depleted in a day for no reason i am furious my business is losing money
+2372,Afrihost Fibre,Call-centre note,Data & pricing,my data is finished again ke tšhaba,negative,0,0,0,my data is finished again ke tšhaba
+2385,Vodacom,WhatsApp,Contract & porting,cancellation fee is not what the salesperson said. @Vodacom please help (2nd time asking),negative,0,1,0,cancellation fee is not what the salesperson said @vodacom please help 2nd time asking
+2396,Telkom,X/Twitter,Data & pricing,"my data depleted in a day for no reason, absolutely disgusting. escalating this",negative,0,1,0,my data depleted in a day for no reason absolutely disgusting escalating this
+2399,Vodacom,Call-centre note,Network quality,calls keep cutting out absolutely disgusting,negative,0,0,0,calls keep cutting out absolutely disgusting
+2401,Vodacom,WhatsApp,Fibre installation,the technician never arrived for the third time i will not be renewing you lost me,negative,1,0,0,the technician never arrived for the third time i will not be renewing you lost me
+2402,Telkom,WhatsApp,Customer service,"sent to three different departments and nobody owns this. my whole family is moving across, Vodacom gave us a quote (2nd time asking)",negative,1,0,0,sent to three different departments and nobody owns this my whole family is moving across vodacom gave us a quote 2nd time asking
+2406,Vodacom,Hellopeter,Fibre installation,"fibre line still not live after paying the setup fee, terrible, just terrible. this is my last month with you",negative,1,0,0,fibre line still not live after paying the setup fee terrible just terrible this is my last month with you
+2417,Telkom,Facebook,Data & pricing,prepaid data expires too quickly. this is my last month with you. I work from home and this is critical Ref: 82438,negative,1,1,0,prepaid data expires too quickly this is my last month with you i work from home and this is critical
+2421,Telkom,WhatsApp,Network quality,the tower near us has been down for days. my contract ends next month and I am not renewing #Telkom,negative,1,1,0,the tower near us has been down for days my contract ends next month and i am not renewing #telkom
+2430,Cell C,Hellopeter,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu Ref: 97924",negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu
+2447,MTN,Call-centre note,Network quality,Great job MTN another perfect outage Really impressive stuff Ref: 58796,negative,0,0,1,great job mtn another perfect outage really impressive stuff
+2449,Afrihost Fibre,Facebook,Data & pricing,"price hike with no notice, absolutely disgusting Ref: 73446",negative,1,0,0,price hike with no notice absolutely disgusting
+2450,Afrihost Fibre,Facebook,Network quality,is the network down in Soweto? Please fix.,neutral,0,0,0,is the network down in soweto please fix
+2452,Afrihost Fibre,X/Twitter,Billing,"eish, billed again for nothing Please fix.",negative,0,0,0,eish billed again for nothing please fix
+2461,Telkom,X/Twitter,Network quality,"no coverage at my house since load shedding started, terrible, just terrible. closing my account today (2nd time asking)",negative,1,0,0,no coverage at my house since load shedding started terrible just terrible closing my account today 2nd time asking
+2464,Afrihost Fibre,Facebook,Billing,"I was charged twice this month, terrible, just terrible Ref: 15356",negative,0,0,0,i was charged twice this month terrible just terrible
+2467,Rain,Facebook,Network quality,"signal drops every evening, absolutely disgusting Please fix.",negative,0,0,0,signal drops every evening absolutely disgusting please fix
+2483,Rain,WhatsApp,Fibre installation,"installation promised in 5 days, now week five, absolutely disgusting. need this fixed today",negative,0,1,0,installation promised in 5 days now week five absolutely disgusting need this fixed today
+2484,Vodacom,Hellopeter,Billing,"debit order went off for a cancelled line. my whole family is moving across, Rain gave us a quote",negative,1,0,0,debit order went off for a cancelled line my whole family is moving across rain gave us a quote
+2492,MTN,X/Twitter,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu",negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu
+2501,Afrihost Fibre,Hellopeter,Customer service,support on whatsapp was quick and helpful (2nd time asking),positive,0,0,0,support on whatsapp was quick and helpful 2nd time asking
+2504,Afrihost Fibre,Hellopeter,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+2507,Vumatel Fibre,WhatsApp,Network quality,"data speeds are unusable, this is unacceptable. my business is losing money Please fix.",negative,1,1,0,data speeds are unusable this is unacceptable my business is losing money please fix
+2516,Vumatel Fibre,Hellopeter,Billing,"out of bundle charges I never agreed to, terrible, just terrible. urgent (2nd time asking)",negative,0,1,0,out of bundle charges i never agreed to terrible just terrible urgent 2nd time asking
+2518,MTN,X/Twitter,Data & pricing,"my data depleted in a day for no reason. my friend ported to Rain and loves it, I am staying put #MTN",negative,0,0,0,my data depleted in a day for no reason my friend ported to rain and loves it i am staying put #mtn
+2519,Vodacom,Facebook,Network quality,"calls keep cutting out. done with vodacom, moving to mtn please fix.",negative,1,0,0,calls keep cutting out done with vodacom moving to mtn please fix
+2522,Rain,Call-centre note,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+2527,Telkom,Facebook,Fibre installation,"ag man, still waiting for the technician (2nd time asking)",negative,0,0,0,ag man still waiting for the technician 2nd time asking
+2532,Vodacom,X/Twitter,Data & pricing,price hike with no notice (2nd time asking),negative,0,0,0,price hike with no notice 2nd time asking
+2537,Vodacom,WhatsApp,Fibre installation,"expensive compared to the competition. someone told me to port out. I refuse, fix this instead Ref: 63316",negative,0,0,1,expensive compared to the competition someone told me to port out i refuse fix this instead
+2539,Cell C,WhatsApp,Network quality,"Great job Cell C, another perfect outage. Really impressive stuff. Ref: 45454",negative,0,0,1,great job cell c another perfect outage really impressive stuff
+2541,Afrihost Fibre,Facebook,Network quality,signal drops every evening. my contract ends next month and I am not renewing,negative,1,0,0,signal drops every evening my contract ends next month and i am not renewing
+2542,Vumatel Fibre,Facebook,Data & pricing,"price hike with no notice, absolutely disgusting",negative,0,0,0,price hike with no notice absolutely disgusting
+2543,Afrihost Fibre,WhatsApp,Network quality,signal drops every evening ridiculous done with afrihost fibre moving to rain please respond,negative,1,1,0,signal drops every evening ridiculous done with afrihost fibre moving to rain please respond
+2544,Cell C,WhatsApp,Network quality,"great job cell c, another perfect outage. really impressive stuff. cancelling my contract after this. (2nd time asking)",negative,1,0,1,great job cell c another perfect outage really impressive stuff cancelling my contract after this 2nd time asking
+2546,Cell C,Call-centre note,Billing,Oh wonderful billed twice again Thanks so much Cell C,negative,0,0,1,oh wonderful billed twice again thanks so much cell c
+2547,MTN,Call-centre note,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu",negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu
+2552,Vodacom,Facebook,Billing,"Oh wonderful, billed twice again. Thanks so much Vodacom.",negative,0,0,1,oh wonderful billed twice again thanks so much vodacom
+2557,Telkom,WhatsApp,Data & pricing,price hike with no notice someone told me to port out I refuse fix this instead,negative,0,0,0,price hike with no notice someone told me to port out i refuse fix this instead
+2569,Vodacom,X/Twitter,Customer service,what are the call centre hours (2nd time asking),neutral,0,0,0,what are the call centre hours 2nd time asking
+2572,Vodacom,Facebook,Network quality,"prepaid data expires too quickly. I have already requested my PAC, so you have until Friday #Vodacom",negative,0,0,1,prepaid data expires too quickly i have already requested my pac so you have until friday #vodacom
+2577,MTN,Facebook,Fibre installation,"router delivered but no connection, this is unacceptable",negative,0,0,0,router delivered but no connection this is unacceptable
+2580,MTN,WhatsApp,Customer service,the agent was patient and fixed it first time Ref: 63269,positive,0,0,0,the agent was patient and fixed it first time
+2584,Afrihost Fibre,X/Twitter,Data & pricing,"my data depleted in a day for no reason, this is unacceptable. I will be porting out as soon as I can Please fix.",negative,1,0,0,my data depleted in a day for no reason this is unacceptable i will be porting out as soon as i can please fix
+2588,MTN,Facebook,Fibre installation,ticket closed with no resolution. taking my business elsewhere Please fix.,negative,1,0,1,ticket closed with no resolution taking my business elsewhere please fix
+2591,Vodacom,WhatsApp,Network quality,calls are crystal clear now (2nd time asking),positive,0,0,0,calls are crystal clear now 2nd time asking
+2597,Rain,Facebook,Data & pricing,what bundles are available #rain,neutral,0,0,0,what bundles are available #rain
+2607,Rain,Call-centre note,Network quality,ayikho i-network nakanjani nginenkinga enkulu (2nd time asking),negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu 2nd time asking
+2608,MTN,Facebook,Billing,my bill jumped by R400 with no explanation. need this fixed today,negative,0,1,0,my bill jumped by r400 with no explanation need this fixed today
+2616,Vumatel Fibre,X/Twitter,Billing,"I was charged twice this month, absolutely disgusting Ref: 25664",negative,0,0,0,i was charged twice this month absolutely disgusting
+2617,Vumatel Fibre,WhatsApp,Billing,debit order went off for a cancelled line. don't expect to see me after this month #Vumatel Fibre,negative,1,1,0,debit order went off for a cancelled line don't expect to see me after this month #vumatel fibre
+2633,Telkom,WhatsApp,Contract & porting,cancellation was painless (2nd time asking),positive,0,0,0,cancellation was painless 2nd time asking
+2638,Vodacom,Facebook,Network quality,ayikho i-network nakanjani nginenkinga enkulu,negative,0,1,0,ayikho inetwork nakanjani nginenkinga enkulu
+2642,MTN,WhatsApp,Billing,debit order went off for a cancelled line. cancelling my contract after this,negative,1,0,0,debit order went off for a cancelled line cancelling my contract after this
+2650,Cell C,Hellopeter,Data & pricing,what bundles are available Ref: 95836,neutral,0,0,0,what bundles are available
+2654,Afrihost Fibre,Call-centre note,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+2658,Cell C,WhatsApp,Billing,"I was charged twice this month, this is unacceptable",negative,0,0,0,i was charged twice this month this is unacceptable
+2661,Rain,X/Twitter,Fibre installation,router delivered but no connection. my business is losing money Ref: 77012,negative,0,1,0,router delivered but no connection my business is losing money
+2665,Vodacom,Call-centre note,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+2666,Afrihost Fibre,Hellopeter,Contract & porting,cancellation fee is not what the salesperson said (2nd time asking),neutral,0,0,0,cancellation fee is not what the salesperson said 2nd time asking
+2667,Telkom,Facebook,Billing,"Oh wonderful, billed twice again. Thanks so much Telkom. Please fix.",negative,0,0,1,oh wonderful billed twice again thanks so much telkom please fix
+2676,Afrihost Fibre,WhatsApp,Contract & porting,"porting out is being blocked, this is unacceptable. cancelling my contract after this",negative,1,0,0,porting out is being blocked this is unacceptable cancelling my contract after this
+2680,Vumatel Fibre,Call-centre note,Customer service,nobody replies to my queries. Rain has a better deal and honestly I am tempted. one more strike and I am gone Please fix.,negative,1,0,0,nobody replies to my queries rain has a better deal and honestly i am tempted one more strike and i am gone please fix
+2684,Vumatel Fibre,Call-centre note,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+2687,MTN,Facebook,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+2695,Vodacom,Call-centre note,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+2699,Vumatel Fibre,Facebook,Data & pricing,"my data is finished again, ke tšhaba ref: 71775",negative,0,0,0,my data is finished again ke tšhaba
+2701,Telkom,WhatsApp,Data & pricing,"expensive compared to the competition, completely fed up #Telkom",negative,0,0,0,expensive compared to the competition completely fed up #telkom
+2707,Vodacom,X/Twitter,Network quality,"calls keep cutting out, I am furious. I am switching to Telkom this week #Vodacom",negative,1,0,0,calls keep cutting out i am furious i am switching to telkom this week #vodacom
+2708,Vumatel Fibre,Call-centre note,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+2712,Rain,Hellopeter,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+2720,Telkom,Facebook,Customer service,"sent to three different departments and nobody owns this, completely fed up Ref: 94727",negative,0,0,0,sent to three different departments and nobody owns this completely fed up
+2723,Telkom,Hellopeter,Fibre installation,router delivered but no connection. I work from home and this is critical (2nd time asking),negative,0,1,0,router delivered but no connection i work from home and this is critical 2nd time asking
+2733,Cell C,WhatsApp,Network quality,great job cell c another perfect outage really impressive stuff ref: 59007,negative,0,0,1,great job cell c another perfect outage really impressive stuff
+2734,Vodacom,Facebook,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+2736,Vumatel Fibre,WhatsApp,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+2737,Afrihost Fibre,Hellopeter,Billing,"airtime was deducted for a service I never used. I will not be renewing, you lost me (2nd time asking)",negative,1,1,0,airtime was deducted for a service i never used i will not be renewing you lost me 2nd time asking
+2739,Telkom,Hellopeter,Fibre installation,"installation promised in 5 days, now week five, so frustrating",negative,0,0,0,installation promised in 5 days now week five so frustrating
+2743,MTN,X/Twitter,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+2750,Cell C,Facebook,Network quality,porting out is being blocked. MTN has a better deal and honestly I am tempted. one more strike and I am gone,negative,1,0,1,porting out is being blocked mtn has a better deal and honestly i am tempted one more strike and i am gone
+2758,Vumatel Fibre,Call-centre note,Customer service,"the agent hung up on me, so frustrating. I will be porting out as soon as I can. I work from home and this is critical",negative,1,1,0,the agent hung up on me so frustrating i will be porting out as soon as i can i work from home and this is critical
+2759,MTN,Hellopeter,Network quality,"data speeds are unusable, terrible, just terrible. cancelling my contract after this",negative,1,0,0,data speeds are unusable terrible just terrible cancelling my contract after this
+2764,Vumatel Fibre,Hellopeter,Fibre installation,router delivered but no connection. this is my last month with you,negative,1,0,0,router delivered but no connection this is my last month with you
+2766,Vumatel Fibre,Hellopeter,Billing,out of bundle charges I never agreed to. do not cancel my contract by mistake like last time (2nd time asking),negative,0,0,0,out of bundle charges i never agreed to do not cancel my contract by mistake like last time 2nd time asking
+2774,Vumatel Fibre,X/Twitter,Network quality,expensive compared to the competition. do not cancel my contract by mistake like last time,negative,0,0,1,expensive compared to the competition do not cancel my contract by mistake like last time
+2777,Vodacom,Hellopeter,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+2779,Vumatel Fibre,X/Twitter,Customer service,sent to three different departments and nobody owns this,negative,0,0,0,sent to three different departments and nobody owns this
+2781,Telkom,Hellopeter,Contract & porting,"cancellation fee is not what the salesperson said, i am furious. i will be porting out as soon as i can ref: 93964",neutral,1,0,0,cancellation fee is not what the salesperson said i am furious i will be porting out as soon as i can
+2791,Telkom,WhatsApp,Billing,the billing breakdown is clear and accurate Ref: 51743,positive,0,0,0,the billing breakdown is clear and accurate
+2796,Telkom,X/Twitter,Fibre installation,"ag man, still waiting for the technician (2nd time asking)",negative,0,0,0,ag man still waiting for the technician 2nd time asking
+2797,Vumatel Fibre,Hellopeter,Network quality,LTE shows full bars but nothing loads. how do I cancel the add-on service only (2nd time asking),negative,0,1,0,lte shows full bars but nothing loads how do i cancel the addon service only 2nd time asking
+2798,Afrihost Fibre,X/Twitter,Data & pricing,"my data is finished again, ke tšhaba ref: 25488",negative,0,0,0,my data is finished again ke tšhaba
+2800,Cell C,Facebook,Customer service,"the agent hung up on me, I am furious. escalating this #Cell C",negative,0,1,0,the agent hung up on me i am furious escalating this #cell c
+2801,Afrihost Fibre,Call-centre note,Contract & porting,"cancellation fee is not what the salesperson said, completely fed up. I will be porting out as soon as I can #Afrihost Fibre",negative,1,0,0,cancellation fee is not what the salesperson said completely fed up i will be porting out as soon as i can #afrihost fibre
+2802,Cell C,Hellopeter,Customer service,the agent was patient and fixed it first time Ref: 76428,positive,0,0,0,the agent was patient and fixed it first time
+2803,Cell C,Facebook,Network quality,no coverage at my house since load shedding started completely fed up ref: 46073,negative,0,0,0,no coverage at my house since load shedding started completely fed up
+2810,Rain,Hellopeter,Billing,"i was charged twice this month, absolutely disgusting",negative,1,0,0,i was charged twice this month absolutely disgusting
+2813,Afrihost Fibre,Call-centre note,Contract & porting,"they refuse to cancel my contract. someone told me to port out. I refuse, fix this instead",negative,0,1,0,they refuse to cancel my contract someone told me to port out i refuse fix this instead
+2816,Cell C,Hellopeter,Data & pricing,"prepaid data expires too quickly, completely fed up",negative,1,0,0,prepaid data expires too quickly completely fed up
+2820,Rain,WhatsApp,Network quality,"Great job Rain, another perfect outage. Really impressive stuff. cancelling my contract after this. (2nd time asking)",negative,1,0,1,great job rain another perfect outage really impressive stuff cancelling my contract after this 2nd time asking
+2823,MTN,Facebook,Billing,"oh wonderful, billed twice again. thanks so much mtn. closing my account today. #mtn",negative,1,0,1,oh wonderful billed twice again thanks so much mtn closing my account today #mtn
+2824,Vodacom,Facebook,Data & pricing,price hike with no notice (2nd time asking),negative,1,0,0,price hike with no notice 2nd time asking
+2834,Rain,WhatsApp,Network quality,data speeds are unusable this is unacceptable Ref: 32890,negative,0,0,0,data speeds are unusable this is unacceptable
+2835,Rain,Call-centre note,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+2837,Cell C,Call-centre note,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+2839,Vumatel Fibre,Hellopeter,Customer service,no response from support in two weeks (2nd time asking),negative,1,0,0,no response from support in two weeks 2nd time asking
+2844,Vodacom,Hellopeter,Billing,"my bill jumped by R400 with no explanation, this is unacceptable Please fix.",negative,0,0,0,my bill jumped by r400 with no explanation this is unacceptable please fix
+2850,MTN,X/Twitter,Network quality,calls are crystal clear now (2nd time asking),positive,0,0,0,calls are crystal clear now 2nd time asking
+2851,Rain,WhatsApp,Customer service,i have been on hold for 90 minutes closing my account today escalating this,negative,1,1,0,i have been on hold for 90 minutes closing my account today escalating this
+2856,Vodacom,Call-centre note,Network quality,is the network down in soweto? #vodacom,neutral,0,0,0,is the network down in soweto #vodacom
+2862,Vodacom,Hellopeter,Contract & porting,"they refuse to cancel my contract. someone told me to port out. i refuse, fix this instead ref: 42351",negative,0,0,0,they refuse to cancel my contract someone told me to port out i refuse fix this instead
+2872,Telkom,Facebook,Contract & porting,"stuck in a contract I was misled into. done with Telkom, moving to Vodacom",negative,1,0,0,stuck in a contract i was misled into done with telkom moving to vodacom
+2884,MTN,Call-centre note,Data & pricing,what bundles are available Ref: 30260,neutral,0,0,0,what bundles are available
+2889,Vodacom,Facebook,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+2899,Telkom,WhatsApp,Data & pricing,what bundles are available (2nd time asking),neutral,0,0,0,what bundles are available 2nd time asking
+2900,Afrihost Fibre,X/Twitter,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+2906,Telkom,X/Twitter,Network quality,"Great job Telkom, another perfect outage. Really impressive stuff. closing my account today. Please fix.",negative,1,0,1,great job telkom another perfect outage really impressive stuff closing my account today please fix
+2916,MTN,Hellopeter,Customer service,nobody replies to my queries #mtn,negative,0,0,0,nobody replies to my queries #mtn
+2923,Cell C,Hellopeter,Fibre installation,is fibre available in my street Please fix.,neutral,0,0,0,is fibre available in my street please fix
+2927,Cell C,Hellopeter,Billing,"out of bundle charges i never agreed to. i would never cancel, i just want this fixed (2nd time asking)",negative,0,0,0,out of bundle charges i never agreed to i would never cancel i just want this fixed 2nd time asking
+2940,Cell C,Call-centre note,Customer service,"ticket closed with no resolution, so frustrating. this is my last month with you",negative,1,0,0,ticket closed with no resolution so frustrating this is my last month with you
+2942,Cell C,Facebook,Data & pricing,"prepaid data expires too quickly, i am furious",negative,0,0,0,prepaid data expires too quickly i am furious
+2945,Telkom,WhatsApp,Data & pricing,what bundles are available (2nd time asking),neutral,0,0,0,what bundles are available 2nd time asking
+2952,MTN,WhatsApp,Network quality,"calls keep cutting out, I am furious",negative,1,0,0,calls keep cutting out i am furious
+2953,Afrihost Fibre,Hellopeter,Data & pricing,price hike with no notice taking my number to Vodacom please respond,negative,1,1,0,price hike with no notice taking my number to vodacom please respond
+2958,Cell C,Call-centre note,Fibre installation,"installation promised in 5 days, now week five. Rain here I come",negative,1,0,0,installation promised in 5 days now week five rain here i come
+2974,MTN,WhatsApp,Billing,"the technician never arrived for the third time. my whole family is moving across, Rain gave us a quote Please fix.",negative,1,0,1,the technician never arrived for the third time my whole family is moving across rain gave us a quote please fix
+2976,MTN,Call-centre note,Fibre installation,"Brilliant, the technician no-showed. Again. Fantastic. closing my account today. (2nd time asking)",negative,1,0,1,brilliant the technician noshowed again fantastic closing my account today 2nd time asking
+2992,Telkom,Hellopeter,Customer service,nobody replies to my queries @Telkom please help Please fix,negative,0,1,0,nobody replies to my queries @telkom please help please fix
+2995,Afrihost Fibre,Call-centre note,Customer service,sent to three different departments and nobody owns this Ref: 82549,negative,0,0,0,sent to three different departments and nobody owns this
+3001,Vumatel Fibre,WhatsApp,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+3003,Cell C,Hellopeter,Fibre installation,nobody replies to my queries. how do I cancel the add-on service only,negative,0,0,1,nobody replies to my queries how do i cancel the addon service only
+3007,Vodacom,Facebook,Data & pricing,prepaid data expires too quickly do not cancel my contract by mistake like last time #Vodacom,negative,0,0,0,prepaid data expires too quickly do not cancel my contract by mistake like last time #vodacom
+3009,Vodacom,Hellopeter,Fibre installation,the technician never arrived for the third time. I am switching to MTN this week #Vodacom,negative,1,0,0,the technician never arrived for the third time i am switching to mtn this week #vodacom
+3012,Afrihost Fibre,Hellopeter,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+3014,MTN,Hellopeter,Data & pricing,"my data depleted in a day for no reason, ridiculous please fix.",negative,0,0,0,my data depleted in a day for no reason ridiculous please fix
+3019,Vumatel Fibre,Call-centre note,Customer service,the agent hung up on me. escalating this please fix.,negative,0,1,0,the agent hung up on me escalating this please fix
+3020,Afrihost Fibre,X/Twitter,Customer service,what are the call centre hours (2nd time asking),neutral,0,0,0,what are the call centre hours 2nd time asking
+3022,Cell C,Call-centre note,Network quality,"Great job Cell C, another perfect outage. Really impressive stuff.",negative,0,0,1,great job cell c another perfect outage really impressive stuff
+3025,MTN,Call-centre note,Contract & porting,"they refuse to cancel my contract, terrible, just terrible",negative,0,0,0,they refuse to cancel my contract terrible just terrible
+3027,Telkom,X/Twitter,Network quality,"sies, the signal here is useless (2nd time asking)",negative,0,0,1,sies the signal here is useless 2nd time asking
+3030,Afrihost Fibre,Hellopeter,Network quality,sies the signal here is useless (2nd time asking),negative,0,0,0,sies the signal here is useless 2nd time asking
+3040,Telkom,Call-centre note,Contract & porting,they refuse to cancel my contract my contract ends next month and I am not renewing Please fix,negative,0,1,0,they refuse to cancel my contract my contract ends next month and i am not renewing please fix
+3041,Cell C,X/Twitter,Billing,"oh wonderful, billed twice again. thanks so much cell c. i will be porting out as soon as i can.",negative,1,0,1,oh wonderful billed twice again thanks so much cell c i will be porting out as soon as i can
+3043,Cell C,Facebook,Customer service,"nobody replies to my queries, absolutely disgusting. done with Cell C, moving to Afrihost Fibre. @Cell C please help",negative,1,1,0,nobody replies to my queries absolutely disgusting done with cell c moving to afrihost fibre @cell c please help
+3055,Cell C,Hellopeter,Billing,"eish, billed again for nothing (2nd time asking)",negative,0,0,0,eish billed again for nothing 2nd time asking
+3056,Rain,Call-centre note,Billing,"airtime was deducted for a service I never used, ridiculous #Rain",negative,0,0,0,airtime was deducted for a service i never used ridiculous #rain
+3058,Afrihost Fibre,X/Twitter,Data & pricing,"price hike with no notice, ridiculous. urgent Please fix.",negative,0,1,0,price hike with no notice ridiculous urgent please fix
+3059,Telkom,Facebook,Billing,the billing breakdown is clear and accurate ref: 22283,positive,0,0,0,the billing breakdown is clear and accurate
+3068,Vodacom,Facebook,Data & pricing,"my data is finished again, ke tšhaba #Vodacom",negative,0,0,0,my data is finished again ke tšhaba #vodacom
+3069,Rain,WhatsApp,Customer service,sent to three different departments and nobody owns this,negative,0,0,0,sent to three different departments and nobody owns this
+3070,Cell C,WhatsApp,Network quality,"no coverage at my house since load shedding started, completely fed up",negative,0,0,0,no coverage at my house since load shedding started completely fed up
+3073,Vumatel Fibre,WhatsApp,Billing,what date does my debit order run #Vumatel Fibre,neutral,0,0,0,what date does my debit order run #vumatel fibre
+3076,Vumatel Fibre,Hellopeter,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+3079,MTN,Facebook,Customer service,love waiting 90 minutes on hold. best service ever mtn. please fix.,negative,0,0,1,love waiting 90 minutes on hold best service ever mtn please fix
+3081,Afrihost Fibre,Call-centre note,Network quality,"calls keep cutting out, terrible, just terrible. I am switching to Telkom this week (2nd time asking)",negative,1,0,0,calls keep cutting out terrible just terrible i am switching to telkom this week 2nd time asking
+3083,Vodacom,Call-centre note,Contract & porting,"cancellation fee is not what the salesperson said. they asked if I want to cancel the old line, I said no",negative,0,0,0,cancellation fee is not what the salesperson said they asked if i want to cancel the old line i said no
+3093,Cell C,X/Twitter,Billing,"Oh wonderful, billed twice again. Thanks so much Cell C.",negative,0,0,1,oh wonderful billed twice again thanks so much cell c
+3097,MTN,X/Twitter,Contract & porting,cancellation fee is not what the salesperson said. do not cancel my contract by mistake like last time (2nd time asking),negative,0,1,0,cancellation fee is not what the salesperson said do not cancel my contract by mistake like last time 2nd time asking
+3098,Telkom,X/Twitter,Fibre installation,"installation promised in 5 days, now week five. that was the last straw Please fix.",negative,1,1,0,installation promised in 5 days now week five that was the last straw please fix
+3100,Rain,Facebook,Network quality,"Great job Rain, another perfect outage. Really impressive stuff.",negative,0,0,1,great job rain another perfect outage really impressive stuff
+3105,MTN,Call-centre note,Network quality,calls keep cutting out. i will be porting out as soon as i can,negative,1,0,0,calls keep cutting out i will be porting out as soon as i can
+3106,MTN,Hellopeter,Network quality,calls keep cutting out. Rain has a better deal and honestly I am tempted. one more strike and I am gone,negative,0,0,0,calls keep cutting out rain has a better deal and honestly i am tempted one more strike and i am gone
+3107,MTN,Facebook,Contract & porting,they refuse to cancel my contract terrible just terrible,negative,0,0,0,they refuse to cancel my contract terrible just terrible
+3111,Vumatel Fibre,Facebook,Fibre installation,i was charged twice this month. don't expect to see me after this month (2nd time asking),negative,1,0,1,i was charged twice this month don't expect to see me after this month 2nd time asking
+3121,Afrihost Fibre,Call-centre note,Fibre installation,router delivered but no connection. my contract ends next month and i am not renewing,negative,1,1,0,router delivered but no connection my contract ends next month and i am not renewing
+3124,Cell C,Facebook,Fibre installation,router delivered but no connection I am switching to Rain this week I work from home and this is critical,negative,1,1,0,router delivered but no connection i am switching to rain this week i work from home and this is critical
+3130,Rain,Hellopeter,Customer service,"no response from support in two weeks, this is unacceptable #Rain",negative,0,0,0,no response from support in two weeks this is unacceptable #rain
+3132,MTN,Call-centre note,Billing,debit order went off for a cancelled line. this is my last month with you. need this fixed today Ref: 38326,negative,1,1,0,debit order went off for a cancelled line this is my last month with you need this fixed today
+3134,Vodacom,X/Twitter,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+3135,MTN,WhatsApp,Network quality,"Great job MTN, another perfect outage. Really impressive stuff. Ref: 64751",negative,0,0,1,great job mtn another perfect outage really impressive stuff
+3140,Vumatel Fibre,Hellopeter,Billing,I was charged twice this month do not cancel my contract by mistake like last time (2nd time asking),negative,0,0,0,i was charged twice this month do not cancel my contract by mistake like last time 2nd time asking
+3141,Cell C,WhatsApp,Data & pricing,"lekker, the new bundle is sharp (2nd time asking)",positive,0,0,0,lekker the new bundle is sharp 2nd time asking
+3146,Vumatel Fibre,WhatsApp,Customer service,ticket closed with no resolution I am furious closing my account today,negative,1,0,0,ticket closed with no resolution i am furious closing my account today
+3147,Afrihost Fibre,Hellopeter,Fibre installation,Brilliant the technician no-showed Again Fantastic this is my last month with you (2nd time asking),negative,1,0,1,brilliant the technician noshowed again fantastic this is my last month with you 2nd time asking
+3154,Cell C,Call-centre note,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+3164,Vumatel Fibre,Call-centre note,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu Ref: 52708",negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu
+3166,Cell C,Hellopeter,Contract & porting,porting out is being blocked (2nd time asking),negative,1,0,0,porting out is being blocked 2nd time asking
+3170,MTN,Facebook,Data & pricing,expensive compared to the competition this is unacceptable I will be porting out as soon as I can Ref: 29274,negative,1,0,0,expensive compared to the competition this is unacceptable i will be porting out as soon as i can
+3174,Afrihost Fibre,Call-centre note,Network quality,data speeds are unusable,negative,0,0,0,data speeds are unusable
+3175,Afrihost Fibre,Call-centre note,Network quality,"calls keep cutting out, I am furious. my business is losing money (2nd time asking)",negative,0,1,0,calls keep cutting out i am furious my business is losing money 2nd time asking
+3178,Rain,X/Twitter,Data & pricing,"prepaid data expires too quickly, so frustrating. my business is losing money (2nd time asking)",negative,1,1,0,prepaid data expires too quickly so frustrating my business is losing money 2nd time asking
+3181,Afrihost Fibre,Hellopeter,Billing,the billing breakdown is clear and accurate,neutral,0,0,0,the billing breakdown is clear and accurate
+3185,Afrihost Fibre,Hellopeter,Billing,"Oh wonderful, billed twice again. Thanks so much Afrihost Fibre. Rain here I come.",negative,1,0,1,oh wonderful billed twice again thanks so much afrihost fibre rain here i come
+3194,MTN,Facebook,Billing,airtime was deducted for a service I never used (2nd time asking),negative,0,0,0,airtime was deducted for a service i never used 2nd time asking
+3209,Vumatel Fibre,X/Twitter,Contract & porting,"they refuse to cancel my contract. not switching, but I want a refund",negative,0,0,0,they refuse to cancel my contract not switching but i want a refund
+3216,Telkom,Call-centre note,Billing,"eish, billed again for nothing Please fix.",negative,0,0,0,eish billed again for nothing please fix
+3221,MTN,Facebook,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+3227,MTN,Facebook,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+3228,Vodacom,X/Twitter,Data & pricing,what bundles are available (2nd time asking),neutral,0,0,0,what bundles are available 2nd time asking
+3230,Telkom,WhatsApp,Billing,"eish, billed again for nothing Please fix.",negative,1,0,0,eish billed again for nothing please fix
+3238,Rain,X/Twitter,Network quality,"Great job Rain, another perfect outage. Really impressive stuff.",negative,0,0,1,great job rain another perfect outage really impressive stuff
+3241,Afrihost Fibre,WhatsApp,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+3243,Rain,Hellopeter,Billing,"my bill jumped by R400 with no explanation, absolutely disgusting. my business is losing money",negative,0,1,0,my bill jumped by r400 with no explanation absolutely disgusting my business is losing money
+3249,Rain,Call-centre note,Fibre installation,the technician never arrived for the third time. Cell C here I come. my business is losing money,negative,1,1,0,the technician never arrived for the third time cell c here i come my business is losing money
+3251,Vumatel Fibre,Hellopeter,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+3255,Afrihost Fibre,Hellopeter,Billing,"fibre line still not live after paying the setup fee. someone told me to port out. i refuse, fix this instead",negative,1,0,1,fibre line still not live after paying the setup fee someone told me to port out i refuse fix this instead
+3257,Rain,Hellopeter,Contract & porting,"cancellation fee is not what the salesperson said, absolutely disgusting. done with Rain, moving to Telkom Ref: 75588",negative,1,0,0,cancellation fee is not what the salesperson said absolutely disgusting done with rain moving to telkom
+3265,Vodacom,Call-centre note,Customer service,love waiting 90 minutes on hold. best service ever vodacom. rain here i come.,negative,1,0,1,love waiting 90 minutes on hold best service ever vodacom rain here i come
+3275,Telkom,Call-centre note,Data & pricing,what bundles are available,neutral,0,0,0,what bundles are available
+3276,Cell C,WhatsApp,Data & pricing,what bundles are available (2nd time asking),negative,0,0,0,what bundles are available 2nd time asking
+3281,Rain,Facebook,Contract & porting,they refuse to cancel my contract. do not cancel my contract by mistake like last time (2nd time asking),negative,0,1,0,they refuse to cancel my contract do not cancel my contract by mistake like last time 2nd time asking
+3284,Rain,Facebook,Data & pricing,"price hike with no notice, absolutely disgusting. urgent",negative,0,1,0,price hike with no notice absolutely disgusting urgent
+3287,Cell C,WhatsApp,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+3289,Vumatel Fibre,Call-centre note,Billing,the billing breakdown is clear and accurate,positive,0,0,0,the billing breakdown is clear and accurate
+3291,Telkom,X/Twitter,Billing,"my bill jumped by R400 with no explanation. I will not be renewing, you lost me (2nd time asking)",negative,1,0,0,my bill jumped by r400 with no explanation i will not be renewing you lost me 2nd time asking
+3292,Afrihost Fibre,Facebook,Fibre installation,ag man still waiting for the technician (2nd time asking),negative,0,1,0,ag man still waiting for the technician 2nd time asking
+3294,Afrihost Fibre,Facebook,Network quality,"Great job Afrihost Fibre, another perfect outage. Really impressive stuff. done with Afrihost Fibre, moving to Vodacom.",negative,1,0,1,great job afrihost fibre another perfect outage really impressive stuff done with afrihost fibre moving to vodacom
+3295,Cell C,WhatsApp,Billing,what date does my debit order run #Cell C,neutral,0,0,0,what date does my debit order run #cell c
+3309,Rain,WhatsApp,Network quality,signal drops every evening. my business is losing money,negative,0,1,0,signal drops every evening my business is losing money
+3311,Vodacom,Hellopeter,Fibre installation,"the technician never arrived for the third time. I would never cancel, I just want this fixed",negative,0,0,0,the technician never arrived for the third time i would never cancel i just want this fixed
+3312,Vodacom,X/Twitter,Data & pricing,expensive compared to the competition they asked if I want to cancel the old line I said no,negative,0,0,0,expensive compared to the competition they asked if i want to cancel the old line i said no
+3320,Rain,X/Twitter,Network quality,the tower near us has been down for days Ref: 48550,negative,0,0,0,the tower near us has been down for days
+3321,Vodacom,Call-centre note,Fibre installation,"install was done in two days, very professional #Vodacom",negative,0,0,0,install was done in two days very professional #vodacom
+3334,Afrihost Fibre,Hellopeter,Billing,"debit order went off for a cancelled line. done with Afrihost Fibre, moving to Vumatel Fibre Ref: 77772",negative,0,0,0,debit order went off for a cancelled line done with afrihost fibre moving to vumatel fibre
+3339,Vumatel Fibre,Hellopeter,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu",negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu
+3341,Vumatel Fibre,WhatsApp,Fibre installation,the technician never arrived for the third time. how do I cancel the add-on service only #Vumatel Fibre,negative,0,0,0,the technician never arrived for the third time how do i cancel the addon service only #vumatel fibre
+3347,Afrihost Fibre,WhatsApp,Network quality,calls keep cutting out absolutely disgusting #Afrihost Fibre,negative,0,0,0,calls keep cutting out absolutely disgusting #afrihost fibre
+3351,MTN,Call-centre note,Data & pricing,my data depleted in a day for no reason so frustrating this is my last month with you,negative,1,0,0,my data depleted in a day for no reason so frustrating this is my last month with you
+3353,Afrihost Fibre,X/Twitter,Contract & porting,cancellation fee is not what the salesperson said (2nd time asking),negative,0,0,0,cancellation fee is not what the salesperson said 2nd time asking
+3359,MTN,Call-centre note,Billing,"eish, billed again for nothing (2nd time asking)",negative,0,0,0,eish billed again for nothing 2nd time asking
+3363,Vodacom,Call-centre note,Customer service,what are the call centre hours (2nd time asking),neutral,0,0,0,what are the call centre hours 2nd time asking
+3364,Rain,Hellopeter,Data & pricing,expensive compared to the competition #Rain,negative,0,0,0,expensive compared to the competition #rain
+3377,Afrihost Fibre,Facebook,Customer service,Love waiting 90 minutes on hold. Best service ever Afrihost Fibre. Please fix.,negative,0,0,1,love waiting 90 minutes on hold best service ever afrihost fibre please fix
+3383,Vodacom,Hellopeter,Customer service,the agent was patient and fixed it first time,positive,0,0,0,the agent was patient and fixed it first time
+3386,MTN,WhatsApp,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+3389,Rain,WhatsApp,Network quality,Great job Rain another perfect outage Really impressive stuff,negative,0,0,1,great job rain another perfect outage really impressive stuff
+3391,Vodacom,Facebook,Contract & porting,"porting out is being blocked. not switching, but I want a refund Ref: 57019",negative,0,0,0,porting out is being blocked not switching but i want a refund
+3395,Vodacom,Call-centre note,Network quality,signal drops every evening. taking my business elsewhere,negative,1,0,0,signal drops every evening taking my business elsewhere
+3397,Telkom,Call-centre note,Billing,refund for the double charge arrived quickly #Telkom,positive,0,0,0,refund for the double charge arrived quickly #telkom
+3404,Afrihost Fibre,WhatsApp,Billing,Oh wonderful billed twice again Thanks so much Afrihost Fibre #Afrihost Fibre,negative,0,0,1,oh wonderful billed twice again thanks so much afrihost fibre #afrihost fibre
+3408,Vumatel Fibre,WhatsApp,Customer service,"i have been on hold for 90 minutes, absolutely disgusting",negative,0,0,0,i have been on hold for 90 minutes absolutely disgusting
+3410,Rain,Hellopeter,Billing,i was charged twice this month. don't expect to see me after this month (2nd time asking),negative,1,0,0,i was charged twice this month don't expect to see me after this month 2nd time asking
+3415,Vodacom,X/Twitter,Fibre installation,the technician explained everything #Vodacom,positive,0,0,0,the technician explained everything #vodacom
+3419,Afrihost Fibre,Hellopeter,Billing,I was charged twice this month. taking my business elsewhere #Afrihost Fibre,negative,1,1,0,i was charged twice this month taking my business elsewhere #afrihost fibre
+3429,MTN,Call-centre note,Billing,"eish, billed again for nothing (2nd time asking)",negative,0,0,0,eish billed again for nothing 2nd time asking
+3430,MTN,X/Twitter,Customer service,"nobody replies to my queries, I am furious",negative,0,0,0,nobody replies to my queries i am furious
+3431,MTN,WhatsApp,Network quality,"LTE shows full bars but nothing loads. someone told me to port out. I refuse, fix this instead",negative,0,1,0,lte shows full bars but nothing loads someone told me to port out i refuse fix this instead
+3438,Vodacom,Hellopeter,Data & pricing,"prepaid data expires too quickly, completely fed up. need this fixed today please fix.",negative,0,1,0,prepaid data expires too quickly completely fed up need this fixed today please fix
+3444,Rain,Call-centre note,Billing,"out of bundle charges I never agreed to, I am furious (2nd time asking)",negative,0,0,0,out of bundle charges i never agreed to i am furious 2nd time asking
+3449,Vumatel Fibre,Facebook,Network quality,signal drops every evening. how do I cancel the add-on service only #Vumatel Fibre,negative,0,0,0,signal drops every evening how do i cancel the addon service only #vumatel fibre
+3461,Vumatel Fibre,WhatsApp,Network quality,"Great job Vumatel Fibre, another perfect outage. Really impressive stuff. (2nd time asking)",negative,0,0,1,great job vumatel fibre another perfect outage really impressive stuff 2nd time asking
+3471,Cell C,Call-centre note,Network quality,"sies, the signal here is useless #Cell C",negative,0,0,1,sies the signal here is useless #cell c
+3472,Rain,WhatsApp,Network quality,signal drops every evening. that was the last straw,negative,1,0,0,signal drops every evening that was the last straw
+3480,Vodacom,X/Twitter,Data & pricing,"my data depleted in a day for no reason, terrible, just terrible. this is my last month with you #Vodacom",negative,1,0,0,my data depleted in a day for no reason terrible just terrible this is my last month with you #vodacom
+3485,Cell C,Hellopeter,Data & pricing,what bundles are available Ref: 67730,neutral,0,0,0,what bundles are available
+3499,Afrihost Fibre,Call-centre note,Contract & porting,"stuck in a contract i was misled into, i am furious. telkom here i come",negative,1,0,0,stuck in a contract i was misled into i am furious telkom here i come
+3503,Rain,WhatsApp,Fibre installation,fibre line still not live after paying the setup fee. taking my business elsewhere Ref: 23393,negative,0,0,0,fibre line still not live after paying the setup fee taking my business elsewhere
+3504,MTN,X/Twitter,Network quality,"Great job MTN, another perfect outage. Really impressive stuff. closing my account today.",negative,1,0,1,great job mtn another perfect outage really impressive stuff closing my account today
+3507,Telkom,X/Twitter,Data & pricing,"my data is finished again, ke tšhaba",negative,0,0,0,my data is finished again ke tšhaba
+3509,Vumatel Fibre,WhatsApp,Billing,"oh wonderful, billed twice again. thanks so much vumatel fibre. please fix.",negative,0,0,1,oh wonderful billed twice again thanks so much vumatel fibre please fix
+3514,Vodacom,Call-centre note,Network quality,ayikho i-network nakanjani nginenkinga enkulu (2nd time asking),negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu 2nd time asking
+3516,Telkom,Call-centre note,Fibre installation,"ag man, still waiting for the technician (2nd time asking)",negative,0,0,0,ag man still waiting for the technician 2nd time asking
+3518,Afrihost Fibre,WhatsApp,Fibre installation,fibre line still not live after paying the setup fee. taking my business elsewhere Ref: 69647,negative,1,1,0,fibre line still not live after paying the setup fee taking my business elsewhere
+3526,Vumatel Fibre,Hellopeter,Fibre installation,is fibre available in my street Please fix.,neutral,0,0,0,is fibre available in my street please fix
+3532,Afrihost Fibre,Hellopeter,Data & pricing,my data is finished again ke tšhaba ref: 79953,negative,0,0,0,my data is finished again ke tšhaba
+3540,Vumatel Fibre,Facebook,Fibre installation,the technician never arrived for the third time. I will be porting out as soon as I can #Vumatel Fibre,negative,1,0,0,the technician never arrived for the third time i will be porting out as soon as i can #vumatel fibre
+3542,Afrihost Fibre,Call-centre note,Network quality,the tower near us has been down for days. that was the last straw #Afrihost Fibre,negative,1,0,0,the tower near us has been down for days that was the last straw #afrihost fibre
+3546,Telkom,Call-centre note,Billing,the billing breakdown is clear and accurate Ref: 72286,positive,0,0,0,the billing breakdown is clear and accurate
+3554,Vumatel Fibre,Hellopeter,Customer service,"nobody replies to my queries. they asked if i want to cancel the old line, i said no please fix.",negative,0,0,0,nobody replies to my queries they asked if i want to cancel the old line i said no please fix
+3572,Rain,X/Twitter,Billing,I was charged twice this month. I work from home and this is critical Ref: 85365,negative,0,1,0,i was charged twice this month i work from home and this is critical
+3577,Vumatel Fibre,WhatsApp,Data & pricing,my data depleted in a day for no reason. Telkom here I come (2nd time asking),negative,1,0,0,my data depleted in a day for no reason telkom here i come 2nd time asking
+3581,Afrihost Fibre,X/Twitter,Data & pricing,the new bundle is great value,positive,0,0,0,the new bundle is great value
+3583,Vumatel Fibre,Hellopeter,Billing,I was charged twice this month. ready to leave Vumatel Fibre for good. need this fixed today #Vumatel Fibre,negative,1,1,0,i was charged twice this month ready to leave vumatel fibre for good need this fixed today #vumatel fibre
+3590,Telkom,Call-centre note,Billing,"I was charged twice this month, terrible, just terrible",negative,0,0,0,i was charged twice this month terrible just terrible
+3595,Telkom,X/Twitter,Data & pricing,"lekker, the new bundle is sharp #Telkom",positive,0,0,0,lekker the new bundle is sharp #telkom
+3597,Cell C,WhatsApp,Customer service,"no response from support in two weeks, terrible, just terrible. I am switching to Rain this week. escalating this Please fix.",negative,1,1,0,no response from support in two weeks terrible just terrible i am switching to rain this week escalating this please fix
+3598,Telkom,WhatsApp,Network quality,"ayikho i-network nakanjani, nginenkinga enkulu (2nd time asking)",negative,0,0,0,ayikho inetwork nakanjani nginenkinga enkulu 2nd time asking

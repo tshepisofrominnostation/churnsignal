@@ -1,0 +1,23 @@
+{
+  "churn": {
+    "agree": 819,
+    "n": 819,
+    "pct": 100.0
+  },
+  "urgent": {
+    "agree": 819,
+    "n": 819,
+    "pct": 100.0
+  },
+  "sentiment": {
+    "agree": 819,
+    "n": 819,
+    "pct": 100.0
+  },
+  "aspect": {
+    "agree": 819,
+    "n": 819,
+    "pct": 100.0
+  },
+  "overall_pct": 100.0
+}
