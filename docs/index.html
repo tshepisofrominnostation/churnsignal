@@ -3,107 +3,197 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ChurnSignal · Reply to the customers who are about to leave</title>
-<meta name="description" content="A churn-intent triage console for South African telecom customer messages. Trained model, measured results, runs in your browser.">
+<title>ChurnSignal · Churn-intent triage for telecom messages</title>
+<meta name="description" content="Paste a customer message. See who is about to leave, how fast to reply, and what it is about. Runs entirely in your browser.">
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
-  :root{--bg:#10151c;--panel:#18202b;--line:#273241;--ink:#e8edf3;--mut:#8c9aad;--sig:#22d3a6;--warn:#f5b84a;--hot:#ff6b5e}
-  html{scroll-behavior:smooth} body{background:var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-  .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px}
-  .mut{color:var(--mut)} .sig{color:var(--sig)}
-  .chip{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;padding:3px 9px;border-radius:99px}
-  .b-now{background:#ff6b5e22;color:#ff8f85;border:1px solid #ff6b5e66}
-  .b-today{background:#f5b84a22;color:#f5c978;border:1px solid #f5b84a66}
-  .b-week{background:#22d3a61f;color:#5fe5c1;border:1px solid #22d3a655}
-  .b-mon{background:#8c9aad1f;color:#a7b3c3;border:1px solid #8c9aad44}
-  textarea,select{background:#0e131a;border:1px solid var(--line);color:var(--ink);border-radius:10px}
-  textarea:focus,select:focus{outline:2px solid var(--sig);outline-offset:0}
-  .bar{height:8px;border-radius:99px;background:#0e131a;overflow:hidden}.bar>i{display:block;height:100%;border-radius:99px;background:var(--sig)}
-  .btn{background:var(--sig);color:#06241c;font-weight:700;border-radius:10px;padding:.65rem 1.1rem;transition:filter .15s}.btn:hover{filter:brightness(1.1)}
-  .ghost{border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:.55rem .9rem}.ghost:hover{border-color:var(--sig)}
-  mark{background:#22d3a633;color:#9af0d9;border-radius:4px;padding:0 3px}
-  .rowhov:hover{background:#1d2735} table{border-collapse:collapse;width:100%}
-  th{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--mut);text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}
-  td{padding:11px 12px;border-bottom:1px solid #202b3a;vertical-align:top;font-size:14px}
-  .tick{animation:fade .5s ease both}@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-  @media(prefers-reduced-motion:reduce){.tick{animation:none}}
+  :root{
+    --bg:#14100c; --surface:#1c1611; --surface2:#221a14; --line:#332619;
+    --line-soft:#2a2018; --ink:#f6ece0; --mut:#a89680; --dim:#7d6c5a; --terra:#c9803f; --gold:#d9a441; --ok:#8aa06a; --hot:#d9614c;
+  }
+  *{-webkit-tap-highlight-color:transparent}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-feature-settings:"cv02","cv03";-webkit-font-smoothing:antialiased}
+  .num{font-variant-numeric:tabular-nums}
+  .card{background:var(--surface);border:1px solid var(--line-soft);border-radius:14px;min-width:0}
+  .grid>*{min-width:0}
+  .panelview{min-width:0}
+  .card-2{background:var(--surface2);border:1px solid var(--line);border-radius:14px}
+  .ink{color:var(--ink)}
+  .mut{color:var(--mut)} .dim{color:var(--dim)} .terra{color:var(--terra)} .gold{color:var(--gold)}
+  .wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+  /* tabs */
+  .tabs{display:flex;gap:4px;background:var(--surface);border:1px solid var(--line-soft);border-radius:12px;padding:4px;overflow-x:auto}
+  .tab{border:0;background:transparent;color:var(--mut);font-size:13.5px;font-weight:600;letter-spacing:.01em;
+    padding:9px 16px;border-radius:9px;cursor:pointer;white-space:nowrap;transition:background .16s,color .16s}
+  .tab:hover{color:var(--ink);background:#241b14}
+  .tab[aria-selected="true"]{background:#2c2117;color:var(--ink);box-shadow:inset 0 0 0 1px #3d2d1e}
+  .tab:focus-visible,textarea:focus-visible,button:focus-visible,.file-lbl:focus-visible{outline:2px solid var(--terra);outline-offset:2px}
+  .panelview[hidden]{display:none}
+  /* chips */
+  .chip{display:inline-flex;align-items:center;gap:6px;font-size:10.5px;font-weight:800;letter-spacing:.07em;
+    padding:4px 9px;border-radius:999px;border:1px solid transparent;text-transform:uppercase}
+  .b-now{background:rgba(217,97,76,.14);color:#ef8b78;border-color:rgba(217,97,76,.45)}
+  .b-today{background:rgba(217,164,65,.14);color:#e6bc6e;border-color:rgba(217,164,65,.42)}
+  .b-week{background:rgba(138,160,106,.15);color:#a9bd88;border-color:rgba(138,160,106,.42)}
+  .b-mon{background:rgba(125,108,90,.16);color:#b3a190;border-color:rgba(125,108,90,.45)}
+  /* bars */
+  .bar{height:7px;border-radius:999px;background:#0f0b08;overflow:hidden}
+  .bar>i{display:block;height:100%;border-radius:999px;background:var(--terra);transition:width .5s cubic-bezier(.2,.8,.2,1)}
+  .bar.sig>i{background:var(--ok)} .bar.mut>i{background:var(--dim)}
+  /* forms */
+  textarea,select{background:#0f0b08;border:1px solid var(--line);color:var(--ink);border-radius:11px;
+    font-size:15px;line-height:1.55;width:100%;padding:13px 14px;resize:vertical}
+  textarea::placeholder{color:#6b5c4c}
+  .btn{background:var(--terra);color:#1a1008;font-weight:800;font-size:14px;border:1px solid #d08c4a;
+    border-radius:11px;padding:11px 18px;cursor:pointer;transition:filter .15s,transform .06s}
+  .btn:hover{filter:brightness(1.07)} .btn:active{transform:translateY(1px)}
+  .ghost{background:transparent;border:1px solid var(--line);color:var(--ink);font-size:13px;font-weight:600;
+    border-radius:10px;padding:9px 13px;cursor:pointer;transition:border-color .15s,background .15s}
+  .ghost:hover{border-color:var(--terra);background:#241b14}
+  .samp{background:#221a14;border:1px solid var(--line-soft);color:var(--mut);font-size:12.5px;text-align:left;
+    padding:8px 11px;border-radius:9px;cursor:pointer;transition:color .15s,border-color .15s}
+  .samp:hover{color:var(--ink);border-color:#4a3524}
+  /* table */
+  table{width:100%;border-collapse:collapse}
+  th{font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--dim);font-weight:700;
+    text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+  td{padding:12px 14px;border-bottom:1px solid var(--line-soft);font-size:13.5px;vertical-align:top}
+  tbody tr:hover{background:#221a14}
+  tbody tr:last-child td{border-bottom:0}
+  mark{background:rgba(217,164,65,.22);color:#f0d19a;border-radius:3px;padding:0 2px}
+  .leader{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+  .stat{font-size:44px;font-weight:800;letter-spacing:-.02em;line-height:1}
+  @media (max-width:640px){ .stat{font-size:34px} .wrap{padding:0 16px} }
+  a.ul{color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(217,164,65,.4)}
+  a.ul:hover{border-bottom-color:var(--gold)}
+  .fadein{animation:f .35s ease both}@keyframes f{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+  @media (prefers-reduced-motion:reduce){.fadein{animation:none}.bar>i{transition:none}}
 </style>
 </head>
 <body>
-<header class="max-w-6xl mx-auto px-5 pt-8 flex items-center justify-between">
-  <div class="flex items-center gap-3">
-    <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#22d3a6"/><path d="M6 20c3-9 6 4 9-4s5 3 11-5" stroke="#06241c" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
-    <div><div class="font-extrabold tracking-tight text-lg leading-none">ChurnSignal</div><div class="text-[11px] mut mt-1">Telecom customer-message triage</div></div>
+
+<header class="border-b" style="border-color:var(--line-soft)">
+  <div class="wrap flex items-center justify-between gap-4 py-5">
+    <div class="flex items-center gap-3">
+      <svg width="34" height="34" viewBox="0 0 32 32" aria-hidden="true" style="flex:none">
+        <rect width="32" height="32" rx="9" fill="#c9803f"/>
+        <path d="M6.5 20.5c3-9 6 4 9-4s5 3 10.5-4.5" stroke="#1a1008" stroke-width="3" fill="none" stroke-linecap="round"/>
+      </svg>
+      <div>
+        <div class="font-extrabold tracking-tight text-[17px] leading-none">ChurnSignal</div>
+        <div class="text-[11.5px] mut mt-1">Churn-intent triage · South African telecom</div>
+      </div>
+    </div>
+    <div class="flex items-center gap-3">
+      <span class="chip b-week">Live</span>
+      <a class="text-[12.5px] mut hover:text-white hidden sm:inline" href="https://github.com/tshepisofrominnostation/churnsignal">Source</a>
+    </div>
   </div>
-  <nav class="hidden sm:flex gap-5 text-sm mut">
-    <a href="#try" class="hover:text-white">Try it</a><a href="#proof" class="hover:text-white">The proof</a><a href="#method" class="hover:text-white">Method</a><a href="#limits" class="hover:text-white">Limits</a>
-  </nav>
 </header>
 
-<main class="max-w-6xl mx-auto px-5">
-  <section class="pt-14 pb-10">
-    <p class="text-sm font-bold sig tracking-widest">FOR TELECOM CUSTOMER-CARE TEAMS</p>
-    <h1 class="mt-3 text-4xl sm:text-6xl font-extrabold tracking-tight leading-[1.05] max-w-3xl">Most angry customers stay.<br><span class="sig">Find the ones who won't.</span></h1>
-    <p class="mt-5 text-lg mut max-w-2xl">Sentiment tells you someone is unhappy. ChurnSignal tells you who is <em>leaving</em>, why, and how fast to reply, so a small team answers the right 20% first.</p>
-    <div class="mt-7 flex flex-wrap gap-3"><a href="#try" class="btn">Triage a message</a><a href="#proof" class="ghost">See the measured results</a></div>
-    <div id="hero-stats" class="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-3"></div>
+<main class="wrap pb-24">
+
+  <section class="pt-9 pb-6">
+    <h1 class="text-[26px] sm:text-[34px] font-extrabold tracking-tight leading-[1.15] max-w-2xl">
+      Most angry customers stay. <span class="terra">Find the ones who won't.</span>
+    </h1>
+    <p class="mut mt-2.5 text-[15px] max-w-2xl">Paste a message and see who is about to leave, how fast to reply, and what it is about. Everything runs on your device.</p>
   </section>
 
-  <section id="try" class="py-10">
-    <h2 class="text-2xl font-extrabold">Try it on a real message</h2>
-    <p class="mut mt-1 mb-5 text-sm">Runs entirely in your browser. Nothing is uploaded.</p>
+  <div class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="tab-console" data-tab="console" aria-selected="true" aria-controls="p-console">Triage</button>
+    <button class="tab" role="tab" id="tab-inbox" data-tab="inbox" aria-selected="false" aria-controls="p-inbox">Inbox</button>
+    <button class="tab" role="tab" id="tab-proof" data-tab="proof" aria-selected="false" aria-controls="p-proof">Results</button>
+    <button class="tab" role="tab" id="tab-method" data-tab="method" aria-selected="false" aria-controls="p-method">Method &amp; limits</button>
+  </div>
+
+  <!-- ============ TRIAGE ============ -->
+  <section class="panelview pt-6" id="p-console" role="tabpanel" aria-labelledby="tab-console">
     <div class="grid lg:grid-cols-5 gap-5">
-      <div class="panel p-5 lg:col-span-2">
-        <label for="msg" class="text-xs font-bold mut tracking-wider">CUSTOMER MESSAGE</label>
-        <textarea id="msg" rows="5" class="w-full mt-2 p-3 text-[15px]" placeholder="Paste a WhatsApp, X or Hellopeter message..."></textarea>
-        <div class="mt-3 flex flex-wrap gap-2" id="samples"></div>
-        <button id="go" class="btn mt-4 w-full">Analyse message</button>
+      <div class="lg:col-span-2 card p-5">
+        <label for="msg" class="text-[10.5px] font-extrabold tracking-[.09em] dim">CUSTOMER MESSAGE</label>
+        <textarea id="msg" rows="6" class="mt-2.5" placeholder="Paste a WhatsApp, X or Hellopeter message…"></textarea>
+        <div class="flex flex-wrap gap-2 mt-3" id="samples"></div>
+        <button id="go" class="btn w-full mt-4">Analyse message</button>
+        <p class="text-[11.5px] dim mt-2.5">Ctrl or ⌘ + Enter to run. Nothing is uploaded.</p>
       </div>
-      <div class="panel p-5 lg:col-span-3" id="result" aria-live="polite">
-        <div class="mut text-sm">Results appear here: churn risk, urgency, topic, and the exact words that drove the score.</div>
-      </div>
-    </div>
 
-    <div class="panel p-5 mt-6">
-      <div class="flex items-center justify-between flex-wrap gap-3">
-        <div><h3 class="font-bold">Or triage a whole inbox</h3><p class="text-sm mut">Upload a CSV with a <code>text</code> column. It is ranked on your device.</p></div>
-        <div class="flex gap-2"><input id="file" type="file" accept=".csv" class="hidden"><button class="ghost" id="pick">Upload CSV</button><button class="ghost" id="demo">Load demo inbox</button></div>
+      <div class="lg:col-span-3 card-2 p-6" id="result" aria-live="polite">
+        <div class="mut text-sm">Results appear here.</div>
       </div>
-      <div id="inbox" class="mt-4 overflow-x-auto"></div>
     </div>
   </section>
 
-  <section id="proof" class="py-10">
-    <h2 class="text-2xl font-extrabold">The proof, measured on messages the model never saw</h2>
-    <p class="mut mt-1 mb-6 text-sm max-w-3xl">Held-out test set of <span id="tn"></span> messages. No message text appears in both training and testing. Every figure below is computed, not claimed.</p>
+  <!-- ============ INBOX ============ -->
+  <section class="panelview pt-6" id="p-inbox" role="tabpanel" aria-labelledby="tab-inbox" hidden>
+    <div class="card p-5">
+      <div class="flex flex-wrap items-start justify-between gap-4">
+        <div>
+          <h2 class="font-extrabold text-[17px]">Rank a whole inbox</h2>
+          <p class="mut text-[13.5px] mt-1">Upload a CSV with a <code class="gold">text</code> column, or try the demo set. It is scored in your browser.</p>
+        </div>
+        <div class="flex gap-2">
+          <input id="file" type="file" accept=".csv" class="hidden">
+          <button class="ghost" id="pick">Upload CSV</button>
+          <button class="ghost" id="demo">Load demo inbox</button>
+        </div>
+      </div>
+      <div id="inboxsum" class="mt-5"></div>
+      <div id="inbox" class="mt-1"></div>
+    </div>
+  </section>
+
+  <!-- ============ RESULTS ============ -->
+  <section class="panelview pt-6" id="p-proof" role="tabpanel" aria-labelledby="tab-proof" hidden>
+    <p class="mut text-[13.5px] mb-5 max-w-3xl" id="proofmeta">Measured on held-out messages the model never saw.</p>
     <div class="grid lg:grid-cols-2 gap-5">
-      <div class="panel p-6"><h3 class="font-bold">If you can only reply to some of them</h3><p class="text-sm mut mb-5">Share of customers who were really leaving that you reach.</p><div id="capacity"></div></div>
-      <div class="panel p-6"><h3 class="font-bold">Churn intent vs simple rules</h3><p class="text-sm mut mb-5">Precision, recall and F1 for spotting leavers.</p><div id="churncmp"></div></div>
-      <div class="panel p-6"><h3 class="font-bold">The sarcasm test</h3><p class="text-sm mut mb-5">"Great job, another outage. Impressive." Is that praise?</p><div id="sarcasm"></div></div>
-      <div class="panel p-6"><h3 class="font-bold">Other tasks, same held-out set</h3><p class="text-sm mut mb-5">Macro F1 (churn and urgency: positive class).</p><div id="tasks"></div></div>
+      <div class="card p-6">
+        <h2 class="font-extrabold text-[16.5px]">If you can only reply to some</h2>
+        <p class="mut text-[13px] mt-1 mb-5">Share of customers who really were leaving that you reach.</p>
+        <div id="capacity"></div>
+      </div>
+      <div class="card p-6">
+        <h2 class="font-extrabold text-[16.5px]">Churn intent vs simple rules</h2>
+        <p class="mut text-[13px] mt-1 mb-4">Spotting the people about to leave.</p>
+        <div id="churncmp"></div>
+      </div>
+      <div class="card p-6">
+        <h2 class="font-extrabold text-[16.5px]">The sarcasm test</h2>
+        <p class="mut text-[13px] mt-1 mb-5">“Great job, another outage. Impressive.” Praise, or not?</p>
+        <div id="sarcasm"></div>
+      </div>
+      <div class="card p-6">
+        <h2 class="font-extrabold text-[16.5px]">All four tasks</h2>
+        <p class="mut text-[13px] mt-1 mb-4">Same held-out set, same split.</p>
+        <div id="tasks"></div>
+      </div>
     </div>
   </section>
 
-  <section id="method" class="py-10">
-    <h2 class="text-2xl font-extrabold">Method, in plain language</h2>
-    <div class="grid md:grid-cols-4 gap-4 mt-5 text-sm" id="steps"></div>
-    <p class="mt-5 text-sm mut max-w-3xl">The in-browser engine and the Python model agree on <strong class="text-white" id="par"></strong> of held-out predictions (measured on all four tasks). Per-message explanations show the words that moved each score.</p>
-  </section>
+  <!-- ============ METHOD ============ -->
+  <section class="panelview pt-6" id="p-method" role="tabpanel" aria-labelledby="tab-method" hidden>
+    <div class="grid md:grid-cols-4 gap-4" id="steps"></div>
+    <p class="mut text-[13.5px] mt-5">The browser engine and the Python model agree on <strong class="ink" id="par">—</strong> of held-out predictions, across all four tasks.</p>
 
-  <section id="limits" class="py-10 pb-20">
-    <div class="panel p-6 border-l-4" style="border-left-color:var(--warn)">
-      <h2 class="text-xl font-extrabold">Read this before you trust a number</h2>
-      <ul class="mt-3 space-y-2 text-[15px] mut list-disc pl-5">
-        <li><strong class="text-white">The data is synthetic.</strong> 3,600 messages written from templates modelled on public themes in South African telecom complaints. It is not scraped from Hellopeter, X or any customer. Real-world accuracy will be lower.</li>
-        <li><strong class="text-white">Labels are generated, not annotated by people.</strong> That is why precision and recall can be reported at all, and also why a pilot on real, human-labelled messages is the first next step.</li>
-        <li><strong class="text-white">Provider comparisons are not findings.</strong> Provider was assigned at random in the generator, so any difference between operators here is noise.</li>
-        <li><strong class="text-white">English-dominant.</strong> A few code-switched examples are included; isiZulu, isiXhosa and Afrikaans coverage is minimal.</li>
-        <li><strong class="text-white">Triage, not a verdict.</strong> It ranks who a human should reply to first. It does not decide anything about a customer.</li>
+    <div class="card-2 p-6 mt-8" style="border-left:3px solid var(--gold)">
+      <h2 class="font-extrabold text-[16.5px] gold">Read this before you trust a number</h2>
+      <ul class="mt-3.5 space-y-2.5 text-[13.5px] mut leading-relaxed">
+        <li><strong class="ink">The data is synthetic.</strong> 3,600 messages written from templates modelled on public South African telecom complaint themes. Not scraped from Hellopeter, X or any customer. Real accuracy will be lower.</li>
+        <li><strong class="ink">Labels are generated, not human-annotated.</strong> That is why precision and recall can be reported, and why a pilot on real labelled messages is the first next step.</li>
+        <li><strong class="ink">Leakage is controlled.</strong> The split is made on unique normalised text, so no message appears in both training and testing.</li>
+        <li><strong class="ink">Provider comparisons are not findings.</strong> Provider was assigned at random, so differences between operators are noise.</li>
+        <li><strong class="ink">English-dominant.</strong> A few code-switched examples only; isiZulu, isiXhosa and Afrikaans coverage is minimal.</li>
+        <li><strong class="ink">It triages; it does not judge.</strong> It ranks who a human should reply to first.</li>
       </ul>
     </div>
-    <footer class="mt-10 text-xs mut flex flex-wrap justify-between gap-3"><span>Built by Tshepiso Freddy Thosago · CAPACITI × Clickatell AI Bootcamp, Week 3</span><a class="hover:text-white underline" href="https://github.com/tshepisofrominnostation/churnsignal">Source code and notebook</a></footer>
+
+    <p class="dim text-[11.5px] mt-8">Built by Tshepiso Freddy Thosago · CAPACITI × Clickatell AI Bootcamp, Week 3 ·
+      <a class="ul" href="https://github.com/tshepisofrominnostation/churnsignal">source and notebook</a></p>
   </section>
 </main>
+
 <script src="engine.js"></script>
 <script src="app.js"></script>
 </body>
